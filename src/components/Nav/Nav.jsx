@@ -24,6 +24,11 @@ const Nav = (props) =>{
                    Наши контакты
                 </NavLink>
             </div>
+            <div className="active">
+                <NavLink to="/mounting">
+                   Монтаж
+                </NavLink>
+            </div>
             
         </nav>
     )
