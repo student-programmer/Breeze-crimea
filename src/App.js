@@ -1,16 +1,8 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
-import Contact from './components/Contact/Contact';
-import Header from './components/Header/Header';
-import Help from './components/Help/Help';
-import Home from './components/Home/Home';
-import Nav from './components/Nav/Nav';
-import Work from './components/Works/Work';
-import Footer from './components/Footer/Footer';
-import Mounting from './components/Mounting/Mounting';
-import MountingContainer from './components/Mounting/MountingContainer';
-
+import { Contact, Footer, Header, Help,
+    Nav, Work, MountingContainer, Home } from "./components"
 
 function App(props) {
   return (

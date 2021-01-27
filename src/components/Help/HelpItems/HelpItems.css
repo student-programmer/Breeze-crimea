@@ -1,0 +1,7 @@
+.actived{
+    width:150px;
+    height:40px;
+    background-color:#585050;
+    border-radius: 20px;
+    display:flex;
+}

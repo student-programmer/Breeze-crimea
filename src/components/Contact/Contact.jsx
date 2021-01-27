@@ -1,11 +1,16 @@
 import React from 'react';
+import Element_contact from './Element_contact';
 const Contact = (props) =>{
     return(
         <div className="wrapper">
-            <div><p>Если вы хотите с намаи связаться позвоните по номеру - +79788281091</p></div>
-            <div><p>email - breezecrimea@gmail.com</p></div>
+            <Element_contact contacts={[
+                "+79788281091",
+                "+79782725124",
+                "email - breezecrimea@gmail.com",
+            ]}/>
         </div>
         
     )
 }
 export default Contact;
+
