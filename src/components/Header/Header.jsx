@@ -6,6 +6,9 @@ const Header = (props)=>{
         <div className={h.head}>
            <img className={h.logo} src={Logo} alt="https://webstockreview.net/images/air-clipart-breeze-7.jpg"/>
            <p className={h.p}>breeze-crimea</p>
+           <div className={h.city}>
+               <p>г.Симферополь</p>
+           </div>
         </div>
     )
 }

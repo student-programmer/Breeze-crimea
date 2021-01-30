@@ -5,3 +5,10 @@
     border-radius: 20px;
     display:flex;
 }
+li {
+    display:block;
+    width:200px;
+}
+.mark{
+ width:400px;
+}

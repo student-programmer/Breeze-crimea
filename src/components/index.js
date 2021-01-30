@@ -8,3 +8,4 @@ export {default as MountingContainer } from "./Mounting/MountingContainer";
 export {default as Nav } from "./Nav/Nav";
 export {default as Work } from "./Works/Work";
 export {default as Home }  from "./Home/Home";
+export {default as AirBlock }  from "./Home/AirBlock/AirBlock";

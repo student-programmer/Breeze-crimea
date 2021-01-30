@@ -7,7 +7,7 @@ const HelpItems = ({visiblePopup, air}) => {
         setCutName(air)
     }
     return (
-        <div>
+        <div className="mark">
             <ul>
             {visiblePopup && air.map((air, cond) => ( 
             <li className={cutName === air ? "actived" : ""} 
