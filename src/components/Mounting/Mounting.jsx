@@ -4,13 +4,6 @@ import m from './Mounting.module.css';
 import Time from './Time/Time';
 const Mounting = (props) => {
   const newPostElement = React.createRef();
-  const addPost = () =>{
-    props.addPost();
-  }
-
-  const newApplication = props.posts.map((p) => (
-    <Application massage={p.message} />
-  ));
   const klick = () =>{
     alert("hello world")
   }

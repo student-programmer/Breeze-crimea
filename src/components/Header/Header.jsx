@@ -1,6 +1,7 @@
 import React from 'react';
 import h from './Header.module.css'
 import Logo from './../../asseds/images/logo.jpg'
+import { NavLink } from 'react-router-dom';
 const Header = (props)=>{
     return(
         <div className={h.head}>
@@ -8,6 +9,9 @@ const Header = (props)=>{
            <p className={h.p}>breeze-crimea</p>
            <div className={h.city}>
                <p>г.Симферополь</p>
+           </div>
+           <div className={h.basketWrap}>
+               <NavLink to="/basket">Корзина</NavLink>
            </div>
         </div>
     )

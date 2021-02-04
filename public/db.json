@@ -9,7 +9,7 @@
     },
     {
         "id":1,
-        "imageUrl":"https://img.favpng.com/1/16/8/haier-air-conditioner-air-conditioning-power-inverters-png-favpng-SnsyhhhWvvLjRpZaQ53EWrQ6F.jpg",
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
         "name":"hair",
         "price":"23 500",
         "types":[0,1]
@@ -17,9 +17,33 @@
     },
     {
         "id":2,
-        "imageUrl":"https://lh3.googleusercontent.com/proxy/Hw62ucaGp9VthgO4xxu36sIvc7ay4UIkFVYtFZdrgSb1jh_buwjoR8hcDh_Bv-ApW4zfaWjc6IMKTAyyTS6rlC6xK71PHamdp7IxC3hqI4weZczbxdzcLnK1hmqPXno-4mE0SoRcoBUYXl6JJG4",
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
         "name":"samsung",
         "price":"25 000",
+        "types":[0,1]
+
+    },
+    {
+        "id":3,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "name":"oasis",
+        "price":"12 000",
+        "types":[0,1]
+
+    },
+    {
+        "id":4,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "name":"bismark",
+        "price":"19 900",
+        "types":[0,1]
+
+    },
+    {
+        "id":5,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "name":"lg",
+        "price":"29 000",
         "types":[0,1]
 
     }
