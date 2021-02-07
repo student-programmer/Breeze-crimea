@@ -29,6 +29,7 @@ const Help = () => {
           air={['Hair', 'Balu', 'Mitsubishi', 'Bosh', 'LG', 'Rover', 'Samsung']}
         />
       </div>
+
     </div>
   );
 };

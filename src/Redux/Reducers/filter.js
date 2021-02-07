@@ -1,19 +1,17 @@
+const SET_SORT_BY = "SET_SORT_BY";
 const initialState = {
     sortBy:"pupular",
     category:0
 }
-function counterReducer(state = { value: 0 }, action) {
+  const filterReducer = (state = initialState, action) => {
     switch (action.type) {
-      case 'ДОБАВИТЬ':
-        return { value: state.value + 1 }
-      case 'counter/decremented':
-        return { value: state.value - 1 }
+      case SET_SORT_BY:
+      return{
+        ...state,
+        sortBy:action.payload,
+      };
       default:
-        return state
+      return state;
     }
-  }
-  const filters = (state, action) => {
-
-
-
-  }
+  };
+  export default filterReducer;
