@@ -1,7 +1,6 @@
 export {default as Contact } from "./Contact/Contact";
 export {default as Footer } from "./Footer/Footer";
 export {default as Header } from "./Header/Header";
-export {default as Help } from "./Help/Help";
 export {default as Application } from "./Mounting/Application/Application";
 export {default as Mounting } from "./Mounting/Mounting";
 export {default as Nav } from "./Nav/Nav";

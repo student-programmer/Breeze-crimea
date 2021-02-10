@@ -24,11 +24,6 @@ const Nav = () =>{
                     Наши работы
                 </NavLink>
             </div>
-            <div className={activClass === activRef.current ? 'active' : ""} ref={activRef} >
-                <NavLink to="/help">
-                   Помощь в выборе
-                </NavLink>
-            </div>
             <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/contact">
                    Наши контакты
