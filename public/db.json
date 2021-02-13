@@ -2,7 +2,7 @@
     "conditioning":[{
         "id":0,
         "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
-        "name":"ballu",
+        "category":"Balu",
         "price":"22 000",
         "types":[0,1]
  
@@ -10,7 +10,7 @@
     {
         "id":1,
         "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
-        "name":"hair",
+        "category":"Hair",
         "price":"23 500",
         "types":[0,1]
      
@@ -18,7 +18,7 @@
     {
         "id":2,
         "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
-        "name":"samsung",
+        "category":"Samsung",
         "price":"25 000",
         "types":[0,1]
 
@@ -26,7 +26,7 @@
     {
         "id":3,
         "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
-        "name":"oasis",
+        "category":"Rover",
         "price":"12 000",
         "types":[0,1]
 
@@ -34,7 +34,7 @@
     {
         "id":4,
         "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
-        "name":"bismark",
+        "category":"Bosh",
         "price":"19 900",
         "types":[0,1]
 
@@ -42,8 +42,16 @@
     {
         "id":5,
         "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
-        "name":"lg",
+        "category":"LG",
         "price":"29 000",
+        "types":[0,1]
+
+    },
+    {
+        "id":6,
+        "imageUrl":"https://кондиционеры-иркутск.рф/upload/resize_cache/iblock/038/800_600_140cd750bba9870f18aada2478b24840a/03817dedb2ba03ab04f6242c57106449.png",
+        "category":"Mitsubishi",
+        "price":"22 700",
         "types":[0,1]
 
     }

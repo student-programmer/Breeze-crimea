@@ -8,3 +8,4 @@ export {default as Work } from "./Works/Work";
 export {default as Catalog} from "./сatalogProduct/Сatalog"
 export {default as AirBlock} from "./сatalogProduct/AirBlock/AirBlock"
 export {default as Home } from "./Home/Home";
+export {default as  AirsLoadingBlock} from "./сatalogProduct/AirsLoadingBlock";

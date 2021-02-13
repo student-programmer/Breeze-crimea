@@ -1,4 +1,5 @@
 const SET_AIRS = 'SET_AIRS';
+const SET_LOADED = 'SET_LOADED';
 const initialState = {
   items: [], 
   isLoaded: false
@@ -9,7 +10,13 @@ const initialState = {
       return{
         ...state,
         items:action.payload,
+        isLoaded:true
       };
+      case SET_LOADED:
+        return{
+          ...state,
+          isLoaded:action.payload
+        };
       default:
       return state;
     }

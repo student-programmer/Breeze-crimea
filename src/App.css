@@ -5,11 +5,12 @@ font-size:24px;
 color:#edce6d;
 padding-left:50px;
 position:relative;
+
 }
 .app-wrapper{
     position:relative;
     display:grid;
-    grid-template-areas:"h h" "n c";
+    grid-template-areas:"h h" "n c" "f f";
     grid-template-rows:80px 1fr;
     grid-template-columns:15% 85%;
     grid-gap:10px;
@@ -17,5 +18,7 @@ position:relative;
     margin:0 auto;
     overflow-x: hidden;
     position:relative;
+ 
 }
+
 
