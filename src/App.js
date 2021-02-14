@@ -2,7 +2,7 @@ import React  from 'react';
 import { Route } from 'react-router-dom';
 import './App.css';
 import { Contact, Footer, Header,
-    Nav, Work, Catalog, Home, Mounting} from "./components";
+    Nav, Work, Catalog, Home, Mounting, Cart} from "./components";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Nav/>
       <div className="wrapper">
-      <Route path="/basket" render={() => <Catalog/>}/>
+      <Route path="/basket" render={() => <Cart/>}/>
       <Route path="/home" render={() => <Home/>}/>
       <Route path="/catalog" render={() => <Catalog />}/> 
       <Route path="/work" render={() => <Work/>}/>

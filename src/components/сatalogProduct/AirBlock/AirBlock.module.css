@@ -6,8 +6,24 @@
     border:2px solid blue;
     width:400px;
     height:300px;
-   
+   position:relative;
 }
 .textAir{
     margin:0;
 }
+.but{
+    position:absolute;
+    right:20px;
+    bottom:35px;
+
+}
+.butItem{
+    width:100px;
+    border-radius:20px;
+    border:none;
+    outline: none;
+    height:30px;
+    background-color:orange;
+    cursor:pointer;
+}
+

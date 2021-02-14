@@ -14,6 +14,7 @@ const Help = ({activeCategory}) => {
   };
  
   const sortRef = useRef();
+   const sortPrice = useRef();
   const handleOutsideClick = (e) => {
     if (!e.path.includes(sortRef.current)){
         setVisiblePopup(false);
@@ -39,9 +40,9 @@ const Help = ({activeCategory}) => {
           air={['Hair', 'Balu', 'Mitsubishi', 'Bosh', 'LG', 'Rover', 'Samsung']}
         />
       </div>
-      <div className={h.sortTwo}  >
-      <SortPopup toggleVisiblePopup={toggleVisiblePopup} onClickCategory={(index) => onSelectCategory(index)} visiblePopup={visiblePopup} type={["С низкой цены", "С высокой цены"]}/>
-      </div>
+      {/* <div className={h.sortTwo}  >
+       <SortPopup ref={sortPrice} toggleVisiblePopup={toggleVisiblePopup} onClickCategory={(index) => onSelectCategory(index)} visiblePopup={visiblePopup} type={["С низкой цены", "С высокой цены"]}/>
+      </div> */}
      
     </div>
   );

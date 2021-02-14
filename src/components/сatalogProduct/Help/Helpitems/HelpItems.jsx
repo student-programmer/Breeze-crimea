@@ -25,6 +25,13 @@ const HelpItems = React.memo( function HelpItems({onClickCategory, activeCategor
               {air}
             </li>
           ))}
+          {/* <li className={activeCategory === null ? 'actived' : ''}
+          onClick={() => onClickCategory(air)}>
+                C низкой
+      </li>
+      <li >
+                C высокой
+      </li> */}
       </ul>
     </div>
   );

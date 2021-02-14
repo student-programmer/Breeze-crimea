@@ -1,7 +1,16 @@
 import { PropTypes } from 'prop-types';
 import React from 'react'
 import airb from "./AirBlock.module.css";
-const Machine = ({category, price, imageUrl }) => {
+const Machine = ({category, price, imageUrl, onCkickAddAirs, id, addedAirs }) => {
+    const onAddAirs = () =>{
+        const obj = {
+             id,
+             category,
+             imageUrl,
+             price,
+        }
+         onCkickAddAirs(obj)
+    }
     return (
         <div className={airb.chef}>
             <div>
@@ -13,6 +22,9 @@ const Machine = ({category, price, imageUrl }) => {
             <div>
                 <p className={airb.textAir}>{price}</p>
             </div>
+            <div className= {airb.but}>
+                <button  onClick={onAddAirs} className={airb.butItem}>Добавить <i className={airb.curtItems}>{addedAirs}</i></button>
+            </div>
         </div>
     )
 }
@@ -20,6 +32,7 @@ Machine.propTypes = {
     category: PropTypes.string,
     price: PropTypes.string,
     imageUrl:PropTypes.string,
+    addedAirs: PropTypes.number
 };
 Machine.defaultProps = {
     category: '---',
