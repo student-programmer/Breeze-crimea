@@ -10,3 +10,5 @@ export {default as AirBlock} from "./сatalogProduct/AirBlock/AirBlock"
 export {default as Home } from "./Home/Home";
 export {default as  AirsLoadingBlock} from "./сatalogProduct/AirsLoadingBlock";
 export {default as  Cart} from "./Cart/Cart";
+export {default as  CartItem} from "./Cart/CartItem/CartItem";
+

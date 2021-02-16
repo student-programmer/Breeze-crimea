@@ -6,21 +6,26 @@ const initialState = {
 items:{},
 totalPrice:0,
 totalCount:0,
-}
+};
+const getTotalPrice = arr => arr.reduce((sum, obj) => obj.price + sum, 0);
+
   const cartReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_AIRS_CART:{ 
+            const currentAirsItems = !state.items[action.payload.id] 
+            ? [action.payload] :
+            [...state.items[action.payload.id].items,
+            action.payload];
             const  newItems = {
                     ...state.items,
-                    [action.payload.id]: !state.items[action.payload.id] 
-                     ? [action.payload] :
-                     [...state.items[action.payload.id],
-                     action.payload]
+                    [action.payload.id]:{
+                        items:currentAirsItems,
+                        totalPrice: getTotalPrice(currentAirsItems),
+                    }
             };
-            const allAirs = [].concat.apply([], Object.values(newItems));
-
-            const totalPrice = allAirs.reduce((sum, obj) => obj.price + sum, 0);
-            console.log(totalPrice)
+            const items = Object.values(newItems).map((obj) => obj.items)
+            const allAirs = [].concat.apply([], items);
+            const totalPrice = getTotalPrice(allAirs);
             return{ 
                 ...state,
                 items:newItems,

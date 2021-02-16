@@ -7,7 +7,7 @@ import axios from 'axios'
     
  const fetchAirs = (sortBy, category) => (dispatch) =>{
     dispatch(setLoaded(false));
-    axios.get(`http://localhost:3001/conditioning?${category !== null ? `category=${category}` : ''}`).then(({data}) => {
+    axios.get(`/conditioning?${category !== null ? `category=${category}` : ''}`).then(({data}) => {
         dispatch(setAirs(data));
 })};
 
