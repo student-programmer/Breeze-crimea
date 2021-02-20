@@ -8,3 +8,11 @@
     top:500px;
     left:500px;
 }
+.clear{
+    position:absolute;
+    cursor:pointer;
+    left:600px;
+}
+.item{
+    width:400px;
+}

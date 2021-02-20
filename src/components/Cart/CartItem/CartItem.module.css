@@ -1,0 +1,19 @@
+.items{
+width:500px;
+}
+.HeadBlock{
+    width:50px;
+}
+.cross{
+    border-radius: 100%;
+    width:30px;
+    height:30px;
+    left:300px;
+    position:absolute;
+    cursor: pointer;
+}
+span{
+    margin-left:30px;
+    cursor: pointer;
+    
+}
