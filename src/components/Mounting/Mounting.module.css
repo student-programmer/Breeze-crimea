@@ -1,4 +1,11 @@
 .text{
     width:1000px;
-   
+    text-align:center;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+.mountForm{
+    position:absolute;
+    top:400px;
 }

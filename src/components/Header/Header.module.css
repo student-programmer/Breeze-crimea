@@ -62,3 +62,10 @@
     top:50%;
     transform:translateY(-50%);
 }
+.information{
+    position:absolute;
+    left:400px;
+    top:50%;
+    transform:translateY(-50%);
+    text-transform: uppercase;
+}

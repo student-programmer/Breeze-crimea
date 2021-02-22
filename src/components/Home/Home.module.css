@@ -1,1 +1,9 @@
-
+.info{
+    width:1000px;
+    list-style:decimal;
+    font-size:20px;
+    margin-top:5px;
+}
+.what{
+    font-size:30px;
+}

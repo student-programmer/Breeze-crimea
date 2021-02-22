@@ -17,6 +17,9 @@ const Header = (props) => {
         alt="https://webstockreview.net/images/air-clipart-breeze-7.jpg"
       />
       <p className={h.p}>breeze-crimea</p>
+      <div className={h.information}>
+        <p>продажа, обслуживание, установка кондиционеров.</p>
+      </div>
       <div className={h.city}>
         <p>г.Симферополь</p>
       </div>

@@ -26,7 +26,7 @@ const Nav = () =>{
             </div>
             <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/contact">
-                   Наши контакты
+                   Контакты
                 </NavLink>
             </div>
             <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>

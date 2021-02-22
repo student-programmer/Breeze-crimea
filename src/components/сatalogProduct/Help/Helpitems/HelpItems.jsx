@@ -6,7 +6,7 @@ const HelpItems = React.memo( function HelpItems({onClickCategory, activeCategor
  
 
   const [sortElement, setSortElement] = useState(null);
-  const onSortElement = (sortElement) => {
+  const onSortElement = () => {
     setSortElement(sortElement);
   };
   return (

@@ -28,7 +28,7 @@ const Mounting = () => {
         Вами всех деталей нашим специалистом. Заявки обрабатываются в рабочее
         время, с Понедельника по Пятницу. Установка кондиционеров в любые дни.
       </p>
-      <form action="mail.php" method="POST">
+      <form className={m.mountForm} action="mail.php" method="POST">
       <legend>Заголовок формы</legend>
           <div className={m.formGroup}> 
           <label for="">Введите ваше имя</label>

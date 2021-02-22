@@ -5,3 +5,11 @@
     height:150px;
     overflow-y: initial;
 }
+.aboutUs{
+    width:1000px;
+    text-align:center;
+    font-size:18px;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
