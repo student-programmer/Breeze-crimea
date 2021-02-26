@@ -56,7 +56,6 @@ const Mounting = () => {
 
   const sendForm = (event) =>{
       event.preventDefault();
-      console.log(name, email, phone)
      fetch("http://localhost:5000/form", {
       method:"POST",
       headers:{
