@@ -1,5 +1,15 @@
-const setMount = (value) =>({
+export const setMount = (value) =>({
 type:"SET_MOUNT",
-peyload:value,
+payload:value,
 })
-export default setMount;
+
+
+ export const updateMount = () =>({
+    type:"UPDATE_MOUNT",
+    payload:"",
+})
+
+export const setStatus = (status) =>({
+    type:"SET_STATUS",
+    payload:status,
+})

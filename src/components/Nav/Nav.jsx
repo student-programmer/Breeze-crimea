@@ -4,9 +4,10 @@ import"./Nav.css"
 const Nav = () =>{
     const activRef = React.useRef()
     const [activClass, setActivClass] = React.useState("")
-    const onSelectActive = () =>{
-        setActivClass()
-    }
+   const  onHandleSetActive = () =>{
+    setActivClass()
+   }
+
     return(
         <nav className="nav">
                <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>

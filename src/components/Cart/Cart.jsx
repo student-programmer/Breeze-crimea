@@ -4,7 +4,7 @@ import CartItem from './CartItem/CartItem';
 import cart from './Cart.module.css';
 import { clearCart, removeCartAirs, plusCartItem, minusCartItem } from '../../Redux/Actions/cart';
 import { NavLink } from 'react-router-dom';
-const Cart = ({}) => {
+const Cart = () => {
   const dispatch = useDispatch();
   const onClearCart = () => {
     if (window.confirm('Вы действительно хотите очистить корзину?')) {

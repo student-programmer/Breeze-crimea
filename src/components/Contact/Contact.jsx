@@ -1,9 +1,9 @@
 import React from 'react';
-import Element_contact from './Element_contact';
-const Contact = (props) =>{
+import ElementContact from './ElementContact';
+const Contact = () =>{
     return(
         <div className="wrapper">
-            <Element_contact contacts={[
+            <ElementContact contacts={[
                 "+79788281091",
                 "+79782725124",
                 "email - breezecrimea@gmail.com",

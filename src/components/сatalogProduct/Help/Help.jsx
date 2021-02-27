@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux';
 import h from './Help.module.css';
 import HelpItems from './Helpitems/HelpItems';
 import { setCategory } from "../../../Redux/Actions/filters";
-import SortPopup from '../SortPopup/SortPopup';
 
 
 const Help = ({activeCategory}) => {
@@ -14,7 +13,7 @@ const Help = ({activeCategory}) => {
   };
  
   const sortRef = useRef();
-   const sortPrice = useRef();
+  //  const sortPrice = useRef();
   const handleOutsideClick = (e) => {
     if (!e.path.includes(sortRef.current)){
         setVisiblePopup(false);

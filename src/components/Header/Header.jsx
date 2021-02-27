@@ -26,8 +26,8 @@ const Header = (props) => {
       <div className={h.basketWrap}>
         <NavLink to="/basket" className={h.onlyCart}>
           <div >
-            <span className={h.price}>{totalPrice} <i class="fas fa-ruble-sign"></i></span>
-            <span className={h.count}>{totalCount} <i class="fas fa-shopping-cart"></i></span>
+            <span className={h.price}>{totalPrice} <i className="fas fa-ruble-sign"></i></span>
+            <span className={h.count}>{totalCount} <i className="fas fa-shopping-cart"></i></span>
           </div>
         </NavLink>
       </div>

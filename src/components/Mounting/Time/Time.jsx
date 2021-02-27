@@ -1,7 +1,7 @@
 import React from 'react';
 import './Time.css';
 
-const Time = ({ time, onClick }) => {
+const Time = ({ time }) => {
   const [activeTime, setActiveTime] = React.useState(null);
   const onSelectTime = (time) => {
     setActiveTime(time);

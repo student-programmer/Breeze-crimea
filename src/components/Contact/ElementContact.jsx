@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Element_contact = ({contacts}) => {
+const ElementContact = ({contacts}) => {
     return (
         <div>
             <ul>
@@ -13,4 +13,4 @@ const Element_contact = ({contacts}) => {
     )
 }
 
-export default Element_contact
+export default ElementContact

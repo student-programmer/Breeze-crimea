@@ -1,5 +1,4 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
 import item from './CartItem.module.css';
 
 const CartItem = ({ name, totalPrice, totalCount, onRemove, id, onMinus, onPlus }) => {
