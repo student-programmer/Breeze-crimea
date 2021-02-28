@@ -45,6 +45,8 @@ const Mounting = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
+  const [description, setDescription] = useState('');
+
 
   const onChangeHandlerName = (event) => {
     setName(event.target.value);
@@ -56,6 +58,10 @@ const Mounting = () => {
   };
   const onChangeHandlerPhone = (event) => {
     setPhone(event.target.value);
+    
+  };
+  const onChangeHandlerDescription= (event) => {
+    setDescription(event.target.value);
     
   };
   
@@ -72,12 +78,13 @@ const Mounting = () => {
     setPhone(value);
     setEmail(value);
     setName(value);
+    setDescription(value)
     fetch('http://localhost:5000/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ name, email, phone }),
+      body: JSON.stringify({ name, email, phone, description }),
     })
       .then((response) => response.json())
       .then((result) => alert(result.response.msg))
@@ -91,6 +98,7 @@ const Mounting = () => {
 // })
 
 const value = useSelector(({mounting}) => mounting.updateMount)
+
 
   // const newPostElement = React.createRef();
   // React.useEffect(() => {
@@ -113,9 +121,9 @@ const value = useSelector(({mounting}) => mounting.updateMount)
         время, с Понедельника по Пятницу. Установка кондиционеров в любые дни.
       </p>
       <form onSubmit={sendForm} className={m.mountForm}>
-        <legend>Заголовок формы</legend>
+        <legend>Оставьте заявку на работу</legend>
         <div className={m.formGroup}>
-          <label htmlFor="">Введите ваше имя</label>
+          <label htmlFor="">Введите ваше имя: </label>
           <input
             type="text"
             onChange={onChangeHandlerName}
@@ -127,7 +135,7 @@ const value = useSelector(({mounting}) => mounting.updateMount)
           />
         </div>
         <div className={m.formGroup}>
-          <label htmlFor="">Введите номер телефона</label>
+          <label htmlFor="">Введите номер телефона: </label>
           <input
             onChange={onChangeHandlerPhone}
             type="text"
@@ -140,7 +148,7 @@ const value = useSelector(({mounting}) => mounting.updateMount)
         </div>
 
         <div className={m.formGroup}>
-          <label htmlFor="">Введите email</label>
+          <label htmlFor="">Введите email: </label>
           <input
             onChange={onChangeHandlerEmail}
             type="text"
@@ -150,6 +158,9 @@ const value = useSelector(({mounting}) => mounting.updateMount)
             name="email"
             placeholder="mail@mail.ru"
           />
+        </div>
+        <div className={m.formGroup}>
+          <textarea onChange={onChangeHandlerDescription} name="description" value={description} id="" cols="30" rows="3"></textarea>
         </div>
 
         <button onClick={sendForm} type="button" className={m.formBtn}>
