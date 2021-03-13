@@ -55,5 +55,35 @@
         "types":[0,1]
 
     }
-]
+],
+"works":[{
+    "id":1,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":2,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":3,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":4,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":5,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+},
+{
+    "id":6,
+    "category":null,
+    "imageUrl":"https://www.монтаж-кондиционер.рф/uploads/-kondicionerov.jpg?1578058606910"
+}]
 }

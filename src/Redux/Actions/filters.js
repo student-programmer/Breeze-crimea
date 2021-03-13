@@ -6,3 +6,6 @@ export const setCategory = (name) => ({
     type:'SET_CATEGORY',
     payload: name,
  });
+ export const setLoades = {
+    type:'SET_LOADES',
+ };

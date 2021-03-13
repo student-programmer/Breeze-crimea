@@ -20,7 +20,6 @@ const Catalog = () => {
   React.useEffect(() => {
       dispatch(fetchAirs(sortBy, category))
     }, [category, sortBy])
-
   return (
 
     <div className={h.home}>
