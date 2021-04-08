@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import h from './Сatalog.module.css';
 import AirBlock from './AirBlock/AirBlock';
 import { useSelector } from 'react-redux';
@@ -20,11 +20,22 @@ const Catalog = () => {
   React.useEffect(() => {
       dispatch(fetchAirs(sortBy, category))
     }, [category, sortBy])
+     const [value, setValue] = useState("");
+     const filteredAirs = items.filter( air => {
+       return air.category.toLowerCase().includes(value.toLowerCase())
+     })
+
+
   return (
 
     <div className={h.home}>
+      <div className="form">
+        <form action="">
+          <input placeholder="Введите название кондиционера" type="text" onChange={(event) => setValue(event.target.value)}/>
+          </form>
+      </div>
       <div className={h.twohome}>
-        {isLoaded ? items.map((obj) => (
+        {isLoaded ? filteredAirs.map((obj) => (
           <AirBlock
           id={obj.id}
             imageUrl={obj.imageUrl}
