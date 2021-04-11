@@ -24,14 +24,29 @@ const Catalog = () => {
      const filteredAirs = items.filter( air => {
        return air.category.toLowerCase().includes(value.toLowerCase())
      })
-
+const itemClickHandler = (e) =>{
+  setValue(e.target.textContent)
+  setIsOpen(!isOpen)
+}
+const [isOpen, setIsOpen] = useState(true)
+const inputClickHandler = () =>{
+  setIsOpen(true)
+}
 
   return (
 
     <div className={h.home}>
       <div className="form">
         <form action="">
-          <input placeholder="Введите название кондиционера" type="text" onChange={(event) => setValue(event.target.value)}/>
+          <input value={value} placeholder="Введите название кондиционера" type="text" onClick={inputClickHandler} onChange={(event) => setValue(event.target.value)}/>
+          <ul className={h.autocomplete}>
+        {  
+        value && isOpen ? filteredAirs.map((obj) => (
+          <li  key={obj.id} className={h.autocompleteItem} onClick={itemClickHandler}>{obj.category}</li>
+                ))
+                : null
+      } 
+          </ul>
           </form>
       </div>
       <div className={h.twohome}>
