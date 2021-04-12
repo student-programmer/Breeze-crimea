@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 // imort {useRef} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import m from './Mounting.module.css';
-import Time from './Time/Time';
+// import Time from './Time/Time';
 // import setMount from './../../Redux/Actions/mount';
 import updateMount from './../../Redux/Actions/mount';
 import {setStatus} from './../../Redux/Actions/mount';
@@ -167,10 +167,10 @@ const value = useSelector(({mounting}) => mounting.updateMount)
           Отправить форму
         </button>
       </form>
-      <Time
+      {/* <Time
         onClick={(time) => console.log(time)}
         time={['13:00', '17:00', '12:00', '14:50', '18:20']}
-      />
+      /> */}
     </div>
   );
 };

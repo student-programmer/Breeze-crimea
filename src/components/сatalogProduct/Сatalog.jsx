@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import h from './Сatalog.module.css';
 import AirBlock from './AirBlock/AirBlock';
 import { useSelector } from 'react-redux';
-import Help from './Help/Help';
+// import Help from './Help/Help';
 import fetchAirs from '../../Redux/Actions/airs';
 import { addAirsToCart }from '../../Redux/Actions/cart';
 import { useDispatch } from 'react-redux';
@@ -63,7 +63,7 @@ const inputClickHandler = () =>{
           /> 
         )) : Array(7).fill(0).map((_, index) => <AirsLoadingBlock key={index}/>)}
       </div>
-      <Help activeCategory={category}/>
+      {/* <Help activeCategory={category}/> */}
     </div>
   );
 };
