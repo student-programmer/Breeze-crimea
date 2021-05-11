@@ -10,3 +10,12 @@
 .abautUs{
     width:80%;
 }
+.link{
+    width:200px;
+    height:40px;
+    background-color:orange;
+    border-radius:20px;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}

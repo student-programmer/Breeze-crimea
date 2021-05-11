@@ -4,7 +4,8 @@ import './App.css';
 import { Contact, Footer, Header,
     Nav, Work, Catalog, Home, Mounting, Cart} from "./components";
 
-
+import "./reset.css"
+import "./asseds/fonts/stylesheet.css"
 function App() {
   return (
     <div className="app-wrapper">

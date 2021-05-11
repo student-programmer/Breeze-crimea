@@ -9,6 +9,7 @@ const Nav = () =>{
    }
 
     return(
+        <div className="flex">
         <nav className="nav">
                <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/home">
@@ -37,6 +38,7 @@ const Nav = () =>{
             </div>
             
         </nav>
+        </div>
     )
 }
 export default Nav;

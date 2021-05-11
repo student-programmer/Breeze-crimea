@@ -12,7 +12,7 @@ width:500px;
     position:absolute;
     cursor: pointer;
 }
-span{
+.CartSpan{
     margin-left:30px;
     cursor: pointer;
     

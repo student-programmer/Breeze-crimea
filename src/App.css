@@ -1,6 +1,6 @@
 .wrapper {
 grid-area:c;
-background-color: green;
+background-color: white;
 font-size:24px;
 color:#edce6d;
 padding-left:50px;
@@ -10,15 +10,14 @@ position:relative;
 .app-wrapper{
     position:relative;
     display:grid;
-    grid-template-areas:"h h" "n c" "f f";
-    grid-template-rows:80px 1fr;
-    grid-template-columns:15% 85%;
+    grid-template-areas:"h h" "n n" "c c" "f f";
+    grid-template-rows:80px 200px 1000px 100px;
     grid-gap:10px;
     width: 100%;
     margin:0 auto;
     overflow-x: hidden;
     position:relative;
- 
+    overflow-y: hidden;
 }
 
 

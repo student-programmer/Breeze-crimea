@@ -17,8 +17,8 @@ const handleMinusItem = () =>{
         <p>
           {name} {totalCount} {totalPrice}{' '}
         </p>{' '}
-        <span onClick={handleMinusItem}>-</span>
-        <span onClick={handlePlusItem}>+</span>
+        <span className={item.CartSpan} onClick={handleMinusItem}>-</span>
+        <span className={item.CartSpan} onClick={handlePlusItem}>+</span>
       </div>
       <div onClick={handleRemoveClick} classNam={item.cross}>
         <i class="fas fa-times"></i>
