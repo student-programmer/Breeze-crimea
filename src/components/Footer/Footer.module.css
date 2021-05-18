@@ -1,15 +1,22 @@
 .wrapper{
-    background-color:green;
+    background: #5C8BB6;
     grid-column-start: 1;
     grid-column-end: 3;
-    height:150px;
+    height:192px;
     overflow-y: initial;
+    position:relative;
 }
 .aboutUs{
-    width:1000px;
-    text-align:center;
-    font-size:18px;
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 33px;
+line-height: 32px;
+text-align: center;
+top:50%;
+color: #FFFFFF;
+width:1800px;
     position:absolute;
     left:50%;
-    transform:translateX(-50%);
+    transform:translate(-50%, -50%);
 }

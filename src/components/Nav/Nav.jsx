@@ -11,27 +11,27 @@ const Nav = () =>{
     return(
         <div className="flex">
         <nav className="nav">
-               <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
+               <div id="navNavlink" className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/home">
                     Главная
                 </NavLink>
             </div>
-            <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
+            <div id="navNavlink" className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/catalog">
                     Каталог
                 </NavLink>
             </div>
-            <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
+            <div id="navNavlink" className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/work">
                     Наши работы
                 </NavLink>
             </div>
-            <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
+            <div id="navNavlink" className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/contact">
                    Контакты
                 </NavLink>
             </div>
-            <div className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
+            <div id="navNavlink" className={activClass === activRef.current ? 'active' : ""} ref={activRef}>
                 <NavLink to="/mounting">
                    Монтаж
                 </NavLink>

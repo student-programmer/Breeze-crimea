@@ -40,7 +40,7 @@ a {
   overflow-y: initial;
 }
 
-.active {
+#navNavlink .active {
   font-family: Gotham Pro;
   font-style: normal;
   font-weight: bold;
