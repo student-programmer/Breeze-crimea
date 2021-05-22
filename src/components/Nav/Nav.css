@@ -27,6 +27,7 @@
   align-items: center;
   display: flex;
   overflow-y: initial;
+  grid-area:n;
 }
 a {
   width: 100%;

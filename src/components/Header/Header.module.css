@@ -1,10 +1,11 @@
 .head {
-  width: 100%;
+  width: 1920px;
   height: 80px;
   border-bottom: 2px solid #476988;
   background-color: #5c8bb6;
   position: relative;
   grid-area: h;
+  top:0px;
 }
 
 .logo {

@@ -4,19 +4,18 @@ background-color: white;
 font-size:24px;
 color: #000000;
 position:relative;
-
+width:1980px;
 }
 .app-wrapper{
     position:relative;
-    display:grid;
-    grid-template-areas:"h h" "n n" "c c" "f f";
-    grid-template-rows:80px 200px 2200px 192px;
-    grid-gap:10px;
-    width: 100%;
+    /* display:grid; */
+    /* grid-template-areas:"h" "n" "c" "f";
+   grid-template-rows:80px 200px 2200px  192px; */
+    /* grid-gap:10px; */
+    /* height:2672px; */
+    width: 1980px;
     margin:0 auto;
     overflow-x: hidden;
     position:relative;
     overflow-y: hidden;
 }
-
-

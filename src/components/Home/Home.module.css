@@ -13,6 +13,7 @@ height: 69px;
 left:50%;
 transform: translateX(-50%);
 }
+
 .abautUs{
     width:1903px;
     height:1145px;
@@ -164,4 +165,7 @@ font-size: 33px;
 line-height: 32px;
 
 color: #454545;
+}
+.wrapper{
+    height:2200px;
 }

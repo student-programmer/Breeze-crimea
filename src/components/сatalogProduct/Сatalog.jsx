@@ -7,6 +7,7 @@ import fetchAirs from '../../Redux/Actions/airs';
 import { addAirsToCart }from '../../Redux/Actions/cart';
 import { useDispatch } from 'react-redux';
 import {AirsLoadingBlock} from "../index"
+import loupe from './../../asseds/images/loupe.png';
 
 const Catalog = () => {
   const dispatch = useDispatch();
@@ -36,9 +37,10 @@ const inputClickHandler = () =>{
   return (
 
     <div className={h.home}>
-      <div className="form">
-        <form action="">
-          <input value={value} placeholder="Введите название кондиционера" type="text" onClick={inputClickHandler} onChange={(event) => setValue(event.target.value)}/>
+      <div className={h.form}>
+        <form className={h.form1} action="">
+          <input className={h.formItem}value={value} placeholder="Введите название кондиционера..." type="text" onClick={inputClickHandler} onChange={(event) => setValue(event.target.value)}/>
+          <img className={h.search} src={loupe} alt="loupe" />
           <ul className={h.autocomplete}>
         {  
         value && isOpen ? filteredAirs.map((obj) => (
