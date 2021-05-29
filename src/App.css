@@ -4,7 +4,7 @@ background-color: white;
 font-size:24px;
 color: #000000;
 position:relative;
-width:1980px;
+width:1903px;
 }
 .app-wrapper{
     position:relative;
@@ -13,7 +13,7 @@ width:1980px;
    grid-template-rows:80px 200px 2200px  192px; */
     /* grid-gap:10px; */
     /* height:2672px; */
-    width: 1980px;
+    width: 1903px;
     margin:0 auto;
     overflow-x: hidden;
     position:relative;
