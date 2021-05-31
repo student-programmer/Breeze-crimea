@@ -1,0 +1,119 @@
+.wrapper{
+    height:1500px;
+    width:1903px;
+}
+.contact{
+width:1800px;
+height:96px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 96px;
+line-height: 92px;
+
+color: #000000;
+position:absolute;
+left:50%;
+transform:translateX(-50%); 
+}
+.line1{
+position: absolute;
+width: 600px;
+height: 0px;
+left: 0px;
+top:50%;
+transform: translateY(-50%);
+
+
+border: 3px solid #000000;
+}
+.line2{
+    position: absolute;
+    width: 600px;
+    height: 0px;
+    right: 0px;
+    top:50%;
+    transform: translateY(-50%);
+    border: 3px solid #000000;
+    }
+.contactItem{
+    position:absolute;
+    left: 50%;
+    transform:translateX(-50%); 
+}
+.consult{
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 46px;
+color: #000000;
+position: absolute;
+width: 1800px;
+height: 285px;
+top:130px;
+left: 50%;
+transform:translateX(-50%); 
+text-indent: 45px;
+text-align:center;
+}
+.element{
+    font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 46px;
+color: #000000;
+position: absolute;
+width: 938px;
+height: 164px;
+left: 80px;
+top: 300px;
+}
+.phoneNumber{
+text-decoration-line: underline;
+color: #476988;
+position:relative;
+left:240px;
+padding-top: 20px;
+
+}
+.inf1{
+    top:20px;
+    position:absolute;
+}
+.inf2{
+    top:150px;
+    position:absolute;
+}
+.emailInf{
+    text-decoration-line: underline;
+color: #476988;
+position:absolute;
+    left:150px;
+    top:150px;
+}
+.map{
+    position:relative;
+    top:770px;
+    left: 50%;
+    transform:translateX(-50%); 
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+}
+.weOnMap{
+position: absolute;
+width: 620px;
+height: 100px;
+left: 50%;
+transform: translateX(-50%);
+top: 650px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 92px;
+
+color: #222222;
+
+}
