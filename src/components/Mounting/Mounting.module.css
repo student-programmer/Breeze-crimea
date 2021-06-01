@@ -1,14 +1,139 @@
-.text{
-    width:1000px;
-    text-align:center;
-    position:absolute;
-    left:50%;
-    transform:translateX(-50%);
+.text {
+  top: 1100px;
+  width: 1800px;
+  height:400px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #EDEDED;
+border: 1px solid #D3D3D3;
+box-sizing: border-box;
+box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+border-radius: 50px;
+text-indent: 45px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 38px;
+
+color: rgba(0, 0, 0, 0.9);
+padding-left:30px;
+padding-top:30px;
+
 }
-.mountForm{
-    position:absolute;
-    top:400px;
+.mountForm {
+  position: absolute;
+  width: 1600px;
+  height: 983px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #f4f4f4;
+  border: 1px solid #d7d7d7;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
 }
-.wrapper{
-    height:2200px;
+.wrapper {
+  width: 1903px;
+  height: 1800px;
+}
+.put {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 48px;
+
+  color: #000000;
+  top: 30px;
+}
+.formControl1 {
+  position: absolute;
+  width: 1500px;
+  height: 100px;
+  left: 49px;
+  top: 110px;
+  background: #e4e4e4;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 32px;
+  color: #a4a4a4;
+}
+.formControl2 {
+    top: 260px;
+  position: absolute;
+  width: 1500px;
+  height: 100px;
+  left: 49px;
+  background: #e4e4e4;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 32px;
+  color: #a4a4a4;
+}
+.formControl3 {
+    top: 410px;
+  position: absolute;
+  width: 1500px;
+  height: 100px;
+  left: 49px;
+  background: #e4e4e4;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 20px;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 32px;
+  color: #a4a4a4;
+}
+.formControl4 {
+    top: 560px;
+  position: absolute;
+  width: 1500px;
+  height: 207px;
+  left: 49px;
+  background: #e4e4e4;
+  border: 1px solid #cdcdcd;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 32px;
+  color: #a4a4a4;
+}
+.formBtn{
+    position: absolute;
+width: 989px;
+height: 119px;
+left:50%;
+transform: translateX(-50%);
+top: 810px;
+background: #D65454;
+border-radius: 40px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 48px;
+color: #FFFFFF;
+border:none;
+
 }

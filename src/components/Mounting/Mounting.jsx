@@ -111,6 +111,51 @@ const value = useSelector(({mounting}) => mounting.updateMount)
   // });
   return ( 
     <div className={m.wrapper}>
+    
+      <form onSubmit={sendForm} className={m.mountForm}>
+        <legend className={m.put}>Оставьте заявку на работу</legend>
+        <div className={m.formGroup}>
+          <input
+            type="text"
+            onChange={onChangeHandlerName}
+            className={m.formControl1}
+            value={name}
+            id=""
+            name="name"
+            placeholder="Введите ваше имя"
+          />
+        </div>
+        <div className={m.formGroup}>
+          <input
+            onChange={onChangeHandlerPhone}
+            type="text"
+            className={m.formControl2}
+            value={phone}
+            id=""
+            name="phone"
+            placeholder="Введите номер телефона"
+          />
+        </div>
+
+        <div className={m.formGroup}>
+          <input
+            onChange={onChangeHandlerEmail}
+            type="text"
+            className={m.formControl3}
+            value={email}
+            id=""
+            name="email"
+            placeholder="Введите email"
+          />
+        </div>
+        <div className={m.formGroup}>
+          <textarea  className={m.formControl4} onChange={onChangeHandlerDescription} name="description" placeholder="Комментарий..." value={description} id="" cols="30" rows="3"></textarea>
+        </div>
+
+        <button onClick={sendForm} type="button" className={m.formBtn}>
+          Отправить форму
+        </button>
+      </form>
       <p className={m.text}>
         Выбирайте удобное время и дату на монтаж кондиционера, оставляйте номер
         телефона и комментарий, и наш специалист с Вами свяжется для утонения
@@ -120,58 +165,12 @@ const value = useSelector(({mounting}) => mounting.updateMount)
         Вами всех деталей нашим специалистом. Заявки обрабатываются в рабочее
         время, с Понедельника по Пятницу. Установка кондиционеров в любые дни.
       </p>
-      <form onSubmit={sendForm} className={m.mountForm}>
-        <legend>Оставьте заявку на работу</legend>
-        <div className={m.formGroup}>
-          <label htmlFor="">Введите ваше имя: </label>
-          <input
-            type="text"
-            onChange={onChangeHandlerName}
-            className={m.formControl}
-            value={name}
-            id=""
-            name="name"
-            placeholder="Например, Иван"
-          />
-        </div>
-        <div className={m.formGroup}>
-          <label htmlFor="">Введите номер телефона: </label>
-          <input
-            onChange={onChangeHandlerPhone}
-            type="text"
-            className={m.formControl}
-            value={phone}
-            id=""
-            name="phone"
-            placeholder="+7 (999) 99 99 999"
-          />
-        </div>
-
-        <div className={m.formGroup}>
-          <label htmlFor="">Введите email: </label>
-          <input
-            onChange={onChangeHandlerEmail}
-            type="text"
-            className={m.formControl}
-            value={email}
-            id=""
-            name="email"
-            placeholder="mail@mail.ru"
-          />
-        </div>
-        <div className={m.formGroup}>
-          <textarea onChange={onChangeHandlerDescription} name="description" value={description} id="" cols="30" rows="3"></textarea>
-        </div>
-
-        <button onClick={sendForm} type="button" className={m.formBtn}>
-          Отправить форму
-        </button>
-      </form>
       {/* <Time
         onClick={(time) => console.log(time)}
         time={['13:00', '17:00', '12:00', '14:50', '18:20']}
       /> */}
     </div>
+
   );
 };
 export default Mounting;
