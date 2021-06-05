@@ -4,6 +4,8 @@ import CartItem from './CartItem/CartItem';
 import cart from './Cart.module.css';
 import { clearCart, removeCartAirs, plusCartItem, minusCartItem } from '../../Redux/Actions/cart';
 import { NavLink } from 'react-router-dom';
+import newImage from "./../../asseds/images/new.png" 
+import deleteImg from "./../../asseds/images/delete.png" 
 const Cart = () => {
   const dispatch = useDispatch();
   const onClearCart = () => {
@@ -31,8 +33,11 @@ const Cart = () => {
   return (
     <div to="/cart" className={cart.HeadBlock}>
       {totalCount ? (
-        <div>
+        <div className={cart.wrapperCart1} >
           {' '}
+          <div className={cart.name}>
+            <p>Корзина покупок</p>
+          </div>
           <div className={cart.item}>
             {addedCondinting.map((obj) => (
               <CartItem
@@ -48,19 +53,33 @@ const Cart = () => {
             ))}
           </div>
           <div className={cart.clear} onClick={onClearCart}>
+            <img src={deleteImg} alt="" />
             <p>Очистить корзину</p>
           </div>
+          <div className={cart.flexItem}> 
           <div className={cart.Count}>
-            <p>Всего кондиционеров: {totalCount}</p>
+            <p>Всего товаров: <span className={cart.countItem}>{totalCount}</span></p>
           </div>
           <div className={cart.price}>
-            <p> Сумма заказа: {totalPrice}</p>
+            <p> К оплате: <span className={cart.priceItem}>{totalPrice}</span> <span className={cart.rub}>₽</span> </p>
           </div>{' '}
+          </div>
         </div>
       ) : (
-        <div>
-          <p>Наверно вы ещё ничего не заказали</p>
-          <NavLink to="/catalog">Вернутся назад</NavLink>
+        <div className={cart.wrapperCart2}>
+          <div className={cart.name}>
+            <p>Корзина покупок</p>
+          </div>
+          <div className={cart.Error}> 
+          <div className={cart.war}>
+            <p className={cart.warItem}>Упс...</p>
+          </div>
+          <p className={cart.infoCart}>Кажется вы еще ничего не добавили в корзину</p>
+          <div className={cart.comeBack}> 
+          <img src={newImage} alt="<" />
+          <NavLink className={cart.comeBackItem} to="/catalog">Вернутся назад</NavLink>
+           </div>
+          </div>
         </div>
       )}
     </div>

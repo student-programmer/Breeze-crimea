@@ -118,6 +118,7 @@ padding-top:30px;
   font-size: 33px;
   line-height: 32px;
   color: #a4a4a4;
+  resize:none;
 }
 .formBtn{
     position: absolute;

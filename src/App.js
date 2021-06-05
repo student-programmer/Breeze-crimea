@@ -13,7 +13,7 @@ function App() {
       <Nav/>
       <div className="wrapper">
       <Route path="/basket" render={() => <Cart/>}/>
-      <Route path="/home" render={() => <Home/>}/>
+      <Route path="/home"  render={() => <Home/>}/>
       <Route path="/catalog" render={() => <Catalog />}/> 
       <Route path="/work" render={() => <Work/>}/>
       <Route path="/contact" render={() => <Contact/>}/>

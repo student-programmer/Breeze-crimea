@@ -1,5 +1,10 @@
 .items{
-width:500px;
+    position: absolute;
+    width: 1800px;
+    height: 453px;
+    left: 50%;
+    transform: translateX(-50%);
+    top:200px;
 }
 .HeadBlock{
     width:50px;
