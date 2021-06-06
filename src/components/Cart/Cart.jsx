@@ -43,6 +43,7 @@ const Cart = () => {
               <CartItem
               key={obj.id}
                 id={obj.id}
+                imgaeUrl={obj.imageUrl}
                 name={obj.category}
                 totalPrice={items[obj.id].totalPrice}
                 totalCount={items[obj.id].items.length}
@@ -76,8 +77,8 @@ const Cart = () => {
           </div>
           <p className={cart.infoCart}>Кажется вы еще ничего не добавили в корзину</p>
           <div className={cart.comeBack}> 
-          <img src={newImage} alt="<" />
-          <NavLink className={cart.comeBackItem} to="/catalog">Вернутся назад</NavLink>
+          <img className={cart.comeBackStrel} src={newImage} alt="<" />
+          <NavLink className={cart.comeBackItem} to="/catalog"><p className={cart.comeBackPItem} >Вернутся назад</p></NavLink>
            </div>
           </div>
         </div>

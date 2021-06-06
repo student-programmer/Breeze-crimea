@@ -159,7 +159,19 @@ line-height: 29px;
 
 }
 .comeBackItem{
- width:245px;
+    width: 628px;
+    height: 105px;
+ color: #FFFFFF;
+ display:flex;
+   justify-content: center;
+    align-items: center;
+}
+.comeBackPItem{
+    width: 245px;
  color: #FFFFFF;
 
+}
+.comeBackStrel{
+    position:absolute;
+    left:170px;
 }
