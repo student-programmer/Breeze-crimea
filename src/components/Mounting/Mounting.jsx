@@ -46,7 +46,14 @@ const Mounting = () => {
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
   const [description, setDescription] = useState('');
-
+  const { totalPrice, totalCount, items } = useSelector(({ cart }) => cart);
+  const addedCondinting = Object.keys(items).map((key) => {
+    return items[key].items[0];
+  });
+  const category = addedCondinting.map(item =>{
+    return item.category;
+  })
+ 
 
   const onChangeHandlerName = (event) => {
     setName(event.target.value);
@@ -84,7 +91,7 @@ const Mounting = () => {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({ name, email, phone, description }),
+      body: JSON.stringify({ name, email, phone, description, totalPrice, totalCount, category }),
     })
       .then((response) => response.json())
       .then((result) => alert(result.response.msg))
