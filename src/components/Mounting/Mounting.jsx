@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState } from 'react';
 // imort {useRef} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import m from './Mounting.module.css';
@@ -6,6 +6,7 @@ import m from './Mounting.module.css';
 // import setMount from './../../Redux/Actions/mount';
 import updateMount from './../../Redux/Actions/mount';
 import {setStatus} from './../../Redux/Actions/mount';
+import { clearCart } from '../../Redux/Actions/cart';
 
 const Mounting = () => {
   // const handleClick = (e) =>{
@@ -54,7 +55,7 @@ const Mounting = () => {
     return item.category;
   })
  
-
+  const dispatch = useDispatch();
   const onChangeHandlerName = (event) => {
     setName(event.target.value);
 
@@ -95,6 +96,7 @@ const Mounting = () => {
     })
       .then((response) => response.json())
       .then((result) => alert(result.response.msg))
+      dispatch(clearCart());
   };
 
 //   const dispatch = useDispatch();

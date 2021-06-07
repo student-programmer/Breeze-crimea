@@ -4,7 +4,7 @@ import Logo from './../../asseds/images/logo.png';
 import { NavLink } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { PropTypes } from 'prop-types';
-const Header = (props) => {
+const Header = () => {
   const { totalPrice, totalCount } = useSelector(({ cart }) => ({
     totalPrice: cart.totalPrice,
     totalCount: cart.totalCount,
@@ -26,8 +26,8 @@ const Header = (props) => {
       <div className={h.basketWrap}>
         <NavLink to="/basket" className={h.onlyCart} style={{color:"#000000"}}>
           <div >
-            <span className={h.priceObject}><span className={h.price}>{totalPrice} <i className="fas fa-ruble-sign"></i></span></span>
-            <span className={h.countObject}><span className={h.count}>{totalCount} <i className="fas fa-shopping-cart"></i></span></span>
+            <span className={h.priceObject}><span className={h.price}>{totalPrice}  <i className="fas fa-ruble-sign"></i></span></span>
+            <span className={h.countObject}><span className={h.count}>{totalCount}  <i className="fas fa-shopping-cart"></i></span></span>
           
           </div>
         </NavLink>

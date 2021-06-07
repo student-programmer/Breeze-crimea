@@ -72,7 +72,7 @@ const Home = () => {
       </div>
       <div>
         <div className={home.link}>
-          <NavLink className={home.leter}to="/mounting">Оставить заявку</NavLink>
+          <NavLink className={home.leter} to="/mounting">Оставить заявку</NavLink>
         </div>
       </div>
     </div>

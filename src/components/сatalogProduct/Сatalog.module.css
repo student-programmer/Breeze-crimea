@@ -1,6 +1,6 @@
 .home{
     width:1980px;
-    height:2200px;
+    height:2100px;
 }
 .twohome{
     display:grid;
@@ -16,7 +16,6 @@ width:1310px;
 .autocomplete{
     position:absolute;
     top:78px;
-    background-color:white;
     width:725px;
     list-style: none;
     margin:0;
@@ -39,6 +38,7 @@ width:1310px;
     box-sizing: border-box;
     border-radius: 20px;  
     position:relative;
+    background: white;
 }
 .autocompleteItem:hover{
     background-color:#848388;
@@ -51,6 +51,7 @@ width:1310px;
     height: 78px;
     left:50%;
     transform:translateX(-50%);
+    z-index:100;
 }
 .formItem{
     width: 725px;

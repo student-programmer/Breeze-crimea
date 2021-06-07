@@ -1,5 +1,5 @@
 .image{
-    width:630px;
+    width:628px;
     height:310px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -8,7 +8,6 @@
     position: relative;
     width: 630px;
     height: 385px;
-    
     background: #F1F1F1;
     border: 0.5px solid #CCCCCC;
     box-sizing: border-box;
