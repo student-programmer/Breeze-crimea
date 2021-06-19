@@ -1,5 +1,5 @@
 .wrapper{
-    height:1500px;
+    height:1650px;
     width:1903px;
 }
 .contact{
@@ -94,7 +94,7 @@ position:absolute;
     top:150px;
 }
 .map{
-    position:relative;
+    position:absolute;
     top:770px;
     left: 50%;
     transform:translateX(-50%); 

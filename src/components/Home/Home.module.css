@@ -21,7 +21,8 @@ transform: translateX(-50%);
     border-radius: 50px;
     position:absolute;
     top:950px;
-
+    left:50%;
+    transform:translateX(-50%);
 }
 .link{
     position: absolute;
@@ -170,3 +171,257 @@ color: #454545;
     height:2150px;
     width:1903px;
 }
+@media (max-width:1903px) {
+ .abautUs{
+     max-width:1700px;
+     left:50%;
+     transform:translateX(-50%);
+ }
+ .descriptionAboutUs3{
+     top:620px;
+ }
+ .descriptionAboutUs4{
+     top:800px;
+ }
+ }
+ @media (max-width:1700px) {
+    .abautUs{
+        max-width:1400px;
+        left:50%;
+        transform:translateX(-50%);
+    }
+    .descriptionAboutUs3{
+        top:680px;
+    }
+    .descriptionAboutUs4{
+        top:890px;
+    }
+    .descriptionAboutUs2{
+        top:390px;
+    }
+    .link{
+        top:1950px;
+    }
+    .nav{
+        width:1300px;
+    }
+    }
+             @media (max-width:1400px) {
+                .abautUs{
+                    max-width:990px;
+                    left:50%;
+                    transform:translateX(-50%);
+                    height:1300px;
+                top:800px;
+                }
+                .infohead{
+                    width:990px;
+                    font-size:30px;
+                }
+                .infoheadUl{
+                    left:500px;
+                }
+                .info{
+                    width:950px;
+                }
+                .descriptionAboutUs3{
+                    top:810px;
+                }
+                .descriptionAboutUs{
+                    top:100px;
+                    width:96%;
+                }
+                .someUs{
+                    top:30px;
+                }
+                .descriptionAboutUs4{
+                    top:1100px;
+                }
+                .descriptionAboutUs2{
+                    top:420px;
+                }
+              
+                 }
+                 @media (max-width:992px) {
+                     .wrapper{
+                         height:3000px;
+                     }
+                     .infohead{
+                         height:800px;
+                         width:768px;
+                     }
+                     .infoheadUl{
+                        left:400px;
+                    }
+                    .info{
+                        width:750px;
+                    }
+                    .descriptionAboutUs3{
+                        top:1100px;
+                        width:700px;
+                    }
+                    .descriptionAboutUs{
+                        top:100px;
+                        width:96%;
+                    }
+                    .someUs{
+                        top:30px;
+                    }
+                    .descriptionAboutUs4{
+                        top:1530px;
+                    }
+                    .descriptionAboutUs2{
+                        top:540px;
+                        width:700px;
+                    }
+                    .abautUs{
+                        max-width:990px;
+                        left:50%;
+                        transform:translateX(-50%);
+                        height:1800px;
+                        width:768px;
+                    top:1100px;
+                    }
+                    .arrow{
+                        top:980px;
+                    }
+                    .link{
+                        top:2700px;
+                    }
+                    .what{
+                        font-size:36px;
+                        left:50%;
+                        transform: translateX(-50%);
+                        position:absolute;
+                        width:700px;
+                    }
+        
+                  }
+                     
+                     @media (max-width:768px) {
+                        .wrapper{
+                            height:3000px;
+                        }
+                        .infohead{
+                            height:800px;
+                            width:576px;
+                            font-size:25px;
+                        }
+                        .infoheadUl{
+                           left:300px;
+                       }
+                       .info{
+                           width:500px;
+                       }
+                       .descriptionAboutUs3{
+                        font-size:27px;
+                        width:550px;
+                        top:1150px;
+                       }
+                       .descriptionAboutUs{
+                        font-size:27px;
+                        width:540px
+                       }
+                       .someUs{
+                           top:30px;
+                           font-size:35px;
+                           width:265px;
+                       }
+                       .descriptionAboutUs4{
+                        font-size:27px;
+                        top:1650px;
+                        left:0px;
+                       }
+                       .descriptionAboutUs2{
+                        font-size:27px;
+                        width:540px
+                       }
+                       .abautUs{
+                           font-size:27px;
+                           width:576px;
+                       }
+                       .arrow{
+                           top:980px;
+                       }
+                       .link{
+                           top:2800px;
+                       }
+                       .what{
+                           font-size:29px;
+                           left:50%;
+                           transform: translateX(-50%);
+                           position:absolute;
+                           width:563px;
+                       }
+           
+                   
+                         }
+                         @media (max-width:576px) {
+                            .wrapper{
+                                height:3900px;
+                            }
+                            .infohead{
+                                height:1100px;
+                                width:392px;
+                                font-size:25px;
+                            }
+                            .infoheadUl{
+                               left:200px;
+                           }
+                           .info{
+                               width:330px;
+                           }
+                           .descriptionAboutUs3{
+                            font-size:25px;
+                            width:550px;
+                            top:1510px;
+                            width:370px;
+                            left:5px;
+                           }
+                           .descriptionAboutUs{
+                            font-size:25px;
+                            width:370px;
+                            left:5px;
+                           }
+                           .someUs{
+                               top:30px;
+                               font-size:35px;
+                               width:265px;
+                           }
+                           .descriptionAboutUs4{
+                            font-size:25px;
+                            top:2150px;
+                            left:0px;
+                           }
+                           .descriptionAboutUs2{
+                            font-size:25px;
+                            width:370px;
+                            left:5px;
+                            top:710px;
+                           }
+                           .abautUs{
+                               height:2400px;
+                               font-size:25px;
+                               width:392px;
+                               top:1400px;
+                           }
+                           .arrow{
+                               top:1250px;
+                           }
+                           .link{
+                               top:3630px;
+                               width:300px;
+                           }
+                           .what{
+                               font-size:27px;
+                               text-align:center;
+                               left:50%;
+                               transform: translateX(-50%);
+                               position:absolute;
+                               width:392px;
+                           }
+                        }
+                             
+                             @media (max-width:392px) {
+                        
+                                 }

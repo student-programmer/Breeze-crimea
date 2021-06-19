@@ -1,10 +1,11 @@
+
 .wrapper {
 grid-area:c;
 background-color: white;
 font-size:24px;
 color: #000000;
 position:relative;
-width:1903px;
+width:100%;
 }
 .app-wrapper{
     position:relative;
@@ -13,7 +14,7 @@ width:1903px;
    grid-template-rows:80px 200px 2200px  192px; */
     /* grid-gap:10px; */
     /* height:2672px; */
-    width: 1903px;
+    width: 100%;
     margin:0 auto;
     overflow-x: hidden;
     position:relative;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import"./Nav.css"
+import"./Nav.css";
+
 const Nav = () =>{
     const activRef = React.useRef()
     const [activClass, setActivClass] = React.useState("")
@@ -9,6 +10,7 @@ const Nav = () =>{
    }
 
     return(
+        
         <div className="flex">
         <nav className="nav">
                <div id="navNavlink" className={activClass === activRef.current ? 'active' : ""} ref={activRef}>

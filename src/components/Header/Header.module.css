@@ -1,11 +1,11 @@
 .head {
-  width: 1920px;
+  width: 100%;
   height: 80px;
   border-bottom: 2px solid #476988;
   background-color: #5c8bb6;
   position: relative;
   grid-area: h;
-  top:0px;
+  top: 0px;
 }
 
 .logo {
@@ -27,30 +27,27 @@
   color: #39a1f2;
 }
 .city {
-    position: relative;
-width: 176px;
-height: 50px;
-left: 1630px;
-top: 13px;
+  position: relative;
+  width: 176px;
+  height: 50px;
+  left: 1630px;
+  top: 13px;
 
-background: #476988;
-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-border-radius: 10px;
-
-
+  background: #476988;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
 }
 .city p {
-    font-family: Gotham Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 17px;
-color: #FFFFFF;
-position: absolute;
-top:50%;
-left:50%;
-transform: translate(-50%, -50%);
-
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .basketWrap {
   position: absolute;
@@ -131,3 +128,117 @@ transform: translate(-50%, -50%);
 p {
   all: unset;
 }
+@media (min-width:1904px) {
+  .basketWrap{
+    position:absolute;
+    right:100px;
+  }
+  .city{
+    right:300px;
+    position:absolute;
+  }
+  }
+@media (max-width:1903px) {
+.basketWrap{
+  left:1050px;
+}
+.city{
+  left:1450px;
+}
+}
+@media (max-width:1700px) {
+  .basketWrap{
+    left:860px;
+  }
+  .city{
+    left:1210px;
+  }
+  .logo{
+    left:10px;
+  }
+  .inform{
+    left:300px;
+    font-size:20px;
+
+  }
+  .inform2{
+    left:305px;
+    font-size:20px;
+  }
+  }
+           @media (max-width:1400px) {
+            .inform{
+              display: none;
+          
+            }
+            .inform2{
+              display: none;
+            }
+            .basketWrap{
+              left:400px;
+            }
+            .city{
+              left:77%;
+            }
+            .logo{
+              left:50px;
+            }
+               }
+               @media (max-width:992px) {
+                .basketWrap{
+                  right:50px;
+                }
+                .city{
+                  display:none;
+                }
+                .logo{
+                  left:50px;
+                }
+                   }
+                   @media (max-width:768px) {
+                    .basketWrap{
+                      left:80%;
+                      top:50%;
+                      transform: translateY(-50%);
+                      width: 78px;
+                      height: 64px;
+                      background: #F0F0F0;
+                      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+                      border-radius: 3px;
+                      background-image: url(./../../asseds/images/cart.png);
+                      background-repeat: no-repeat;
+                      background-size: cover;
+                    }
+                    .priceObject{
+                      display:none;
+                    }
+                    .count{
+                      display:none;
+                    }
+                    .city{
+                      display:none;
+                    }
+                    .logo{
+                      left:50px;
+                    }
+                       }
+                           
+                           @media (max-width:392px) {
+                            .basketWrap{
+                              left:80%;
+                              top:100px;
+                              width: 58px;
+                              height: 44px;
+                              background: #F0F0F0;
+                              box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+                              border-radius: 3px;
+                              background-image: url(./../../asseds/images/cart.png);
+                              background-repeat: no-repeat;
+                              background-size: cover;
+                            }
+                            .logo{
+                              left:50%;
+                              transform:translate(-50%,-50%);
+                              top:50%;
+                            }
+                               }

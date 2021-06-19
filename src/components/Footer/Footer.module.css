@@ -7,7 +7,7 @@
     position:relative;
     margin-top:100px;
     bottom:0px;
-    width:1903px;
+    width:100%;
   
 }
 .aboutUs{
@@ -24,3 +24,44 @@ width:1800px;
     left:50%;
     transform:translate(-50%, -50%);
 }
+@media (max-width:1903px) {
+.aboutUs{
+    font-size:28px;
+}
+   }
+   @media (max-width:1700px) {
+    .aboutUs{
+        font-size:26px;
+        width:1400px;
+    }
+       }
+       @media (max-width:1400px) {
+        .aboutUs{
+            font-size:24px;
+            width:998px;
+        }
+           }
+           @media (max-width:992px) {
+            .aboutUs{
+                font-size:23px;
+                width:768px;
+            }
+               }
+               @media (max-width:768px) {
+                .aboutUs{
+                    font-size:20px;
+                    width:576px;
+                }
+                   }
+                   @media (max-width:576px) {
+                    .aboutUs{
+                        font-size:16px;
+                        width:400px;
+                    }
+                       }
+                       @media (max-width:392px) {
+                        .aboutUs{
+                            font-size:14px;
+                            width:300px;
+                        }
+                           }
