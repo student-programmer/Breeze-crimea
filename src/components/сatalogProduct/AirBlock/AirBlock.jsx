@@ -32,7 +32,7 @@ const Machine = ({category, price, imageUrl, onCkickAddAirs, id, addedAirs }) =>
 }
 Machine.propTypes = {
     category: PropTypes.string,
-    price: PropTypes.string,
+    price: PropTypes.number,
     imageUrl:PropTypes.string,
     addedAirs: PropTypes.number
 };

@@ -373,7 +373,6 @@ color: #454545;
                            }
                            .descriptionAboutUs3{
                             font-size:25px;
-                            width:550px;
                             top:1510px;
                             width:370px;
                             left:5px;
@@ -423,5 +422,70 @@ color: #454545;
                         }
                              
                              @media (max-width:392px) {
-                        
+                                .wrapper{
+                                    height:3900px;
+                                }
+                                .infohead{
+                                    height:1200px;
+                                    width:310px;
+                                    font-size:23px;
+                                }
+                                .infoheadUl{
+                                   left:150px;
+                               }
+                               .info{
+                                   width:250px;
+                               }
+                               .descriptionAboutUs3{
+                                font-size:22px;
+                                width:310px;
+                                top:1600px;
+                                left:5px;
+                               }
+                               .descriptionAboutUs{
+                                font-size:22px;
+                                width:310px;
+                                left:5px;
+                               }
+                               .someUs{
+                                   top:30px;
+                                   font-size:35px;
+                                   width:265px;
+                               }
+                               .descriptionAboutUs4{
+                                   text-indent: 0px;
+                                font-size:22px;
+                                text-align:center;
+                                width:270px;
+                                top:2260px;
+                                left:50%;
+                                transform:translateX(-50%);
+                               }
+                               .descriptionAboutUs2{
+                                font-size:22px;
+                                width:310px;
+                                left:5px;
+                                top:800px;
+                               }
+                               .abautUs{
+                                   height:2480px;
+                                   font-size:25px;
+                                   width:320px;
+                                   top:1400px;
+                               }
+                               .arrow{
+                                   top:1330px;
+                               }
+                               .link{
+                                   top:3750px;
+                                   width:300px;
+                               }
+                               .what{
+                                   font-size:24px;
+                                   text-align:center;
+                                   left:50%;
+                                   transform: translateX(-50%);
+                                   position:absolute;
+                                   width:310px;
+                               }
                                  }

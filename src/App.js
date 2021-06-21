@@ -1,5 +1,5 @@
 import React, { useEffect }  from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import './App.css';
 import { Contact, Footer, Header,
     Nav, Work, Catalog, Home, Mounting, Cart} from "./components";
@@ -25,6 +25,7 @@ function App() {
       <Route path="/mounting" render={() => <Mounting/>}/>
       </div>
       <Footer/>
+      <Redirect from='/' to='/home'/> 
     </div>
    );
 }
