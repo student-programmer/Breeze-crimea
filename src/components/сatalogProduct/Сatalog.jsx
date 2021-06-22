@@ -51,6 +51,7 @@ const inputClickHandler = () =>{
           </ul>
           </form>
       </div>
+      
       <div className={h.twohome}>
         {isLoaded ? filteredAirs.map((obj) => (
           <AirBlock

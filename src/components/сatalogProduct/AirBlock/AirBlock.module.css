@@ -1,70 +1,68 @@
-.image{
-    width:628px;
-    height:310px;
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
+.image {
+  width: 628px;
+  height: 310px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
 }
-.chef{
-    position: relative;
-    width: 630px;
-    height: 385px;
-    background: #F1F1F1;
-    border: 0.5px solid #CCCCCC;
-    box-sizing: border-box;
-    border-radius: 30px;
+.chef {
+  position: relative;
+  width: 630px;
+  height: 385px;
+  background: #f1f1f1;
+  border: 0.5px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 30px;
 }
-.textAir{
-    margin:0;
+.textAir {
+  margin: 0;
 }
-.but{
-    position:absolute;
-    right:20px;
-    bottom:35px;
-
+.but {
+  position: absolute;
+  right: 20px;
+  bottom: 35px;
 }
-.butItem{
-    border:none;
-    outline: none;
-    cursor:pointer;
+.butItem {
+  border: none;
+  outline: none;
+  cursor: pointer;
   font-family: Gotham Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 28px;
-line-height: 27px;
-position:absolute;
-width:200px;
-right:5px;
-top:50%;
-transform: translateY(-50%);
-
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 27px;
+  position: absolute;
+  width: 200px;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
 }
-.airInf{ 
-    border-top: 2px solid #CCCCCC;
-    bottom:0px;
-    position:relative;
-    height:73px;
+.airInf {
+  border-top: 2px solid #cccccc;
+  bottom: 0px;
+  position: relative;
+  height: 73px;
 }
-.textAirBlock1{
-    position:absolute;
-    left:10px;
-    transform: translateY(-50%);
-    top:50%;
-    font-family: Gotham Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 27px;
+.textAirBlock1 {
+  position: absolute;
+  left: 10px;
+  transform: translateY(-50%);
+  top: 50%;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 27px;
 }
-.textAirBlock2{
-    position:absolute;
-    left:160px;
-    top:50%;
-    transform: translateY(-50%);
-    font-family: Gotham Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 27px;
+.textAirBlock2 {
+  position: absolute;
+  left: 160px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 27px;
 }
 /* .textAir{
     font-family: Gotham Pro;
@@ -73,3 +71,83 @@ transform: translateY(-50%);
     font-size: 28px;
     line-height: 27px;
 } */
+.plus {
+  display: none;
+}
+@media (max-width: 635px) {
+  .chef {
+    width: 576px;
+  }
+  .image {
+    width: 574px;
+  }
+}
+@media (max-width: 576px) {
+  .chef {
+    width: 392px;
+  }
+  .airInf {
+    font-size: 22px;
+  }
+  .textAirBlock1 {
+    font-size: 22px;
+  }
+  .textAirBlock2 {
+    font-size: 22px;
+    left: 120px;
+  }
+  .textAir {
+    font-size: 22px;
+  }
+  .butItem {
+    right: 20px;
+    width: 80px;
+    font-size: 22px;
+  }
+  .plus1 {
+    display: none;
+  }
+  .plus {
+    display: initial;
+    width: 22px;
+    padding-left: 10px;
+  }
+  .image {
+    width: 390px;
+  }
+}
+@media (max-width: 392px) {
+    .chef {
+        width: 320px;
+      }
+      .image {
+        width: 318px;
+      }
+      .airInf {
+        font-size: 20px;
+      }
+      .textAirBlock1 {
+        font-size: 20px;
+      }
+      .textAirBlock2 {
+        font-size: 20px;
+        left: 110px;
+      }
+      .textAir {
+        font-size: 20px;
+      }
+      .butItem {
+          background:none;
+        right: -10px;
+        width: 80px;
+        font-size: 20px;
+      }
+      .plus1 {
+        display: none;
+      }
+      .plus {
+        display: initial;
+        width: 22px;
+        padding-left: 10px;
+      }
+}

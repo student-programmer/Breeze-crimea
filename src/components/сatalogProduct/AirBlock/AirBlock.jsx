@@ -24,7 +24,7 @@ const Machine = ({category, price, imageUrl, onCkickAddAirs, id, addedAirs }) =>
                 <p className={airb.textAir}>Цена: {price}</p>
                 </div>
             <div className= {airb.but}>
-                <button  onClick={onAddAirs} className={airb.butItem}> + Добавить<i className={airb.curtItems}>{addedAirs}</i></button>
+                <button  onClick={onAddAirs} className={airb.butItem}> <span className={airb.plus1}>+ Добавить</span>  <i className={airb.curtItems}>{addedAirs}</i><span className={airb.plus}><i class="fas fa-plus"></i></span></button>
             </div>
             </div>
         </div>

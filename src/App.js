@@ -13,7 +13,9 @@ function App() {
     window.scrollTo(0, 0);
   }, [location]);
   return (
+    
     <div className="app-wrapper">
+      <Redirect from='/' to='/home'/> 
       <Header/>
       <Nav/>
       <div className="wrapper">
@@ -24,8 +26,7 @@ function App() {
       <Route path="/contact" render={() => <Contact/>}/>
       <Route path="/mounting" render={() => <Mounting/>}/>
       </div>
-      <Footer/>
-      <Redirect from='/' to='/home'/> 
+      <Footer/> 
     </div>
    );
 }
