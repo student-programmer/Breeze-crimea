@@ -30,8 +30,8 @@ const handleMinusItem = () =>{
         <span className={item.CartSpan} onClick={handlePlusItem}>+</span>
         </div>
        
-      <div onClick={handleRemoveClick} classNam={item.cross}>
-       <img className={item.crossItem} src={close} alt="close" />
+      <div onClick={handleRemoveClick} className={item.cross}>
+        <i  class="fas fa-times"></i>
       </div>
     </div>
   );

@@ -83,6 +83,8 @@
   position: absolute;
 }
 .onlyCart {
+  width:78px;
+  height:64px;
   display: flex;
   justify-content: space-between;
 }
@@ -228,6 +230,12 @@ p {
                           top:122px;
                           width: 58px;
                           height: 44px;
+                          z-index:30;
+                        }
+                        .onlyCart{
+                          width: 58px;
+                          height: 44px;
+                          z-index:30;
                         }
                         .logo{
                           left:50%;
