@@ -1,26 +1,25 @@
 .text {
   top: 1100px;
   width: 1800px;
-  height:400px;
+  height: 400px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background: #EDEDED;
-border: 1px solid #D3D3D3;
-box-sizing: border-box;
-box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
-border-radius: 50px;
-text-indent: 45px;
-font-family: Gotham Pro;
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 38px;
+  background: #ededed;
+  border: 1px solid #d3d3d3;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  text-indent: 45px;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 38px;
 
-color: rgba(0, 0, 0, 0.9);
-padding-left:30px;
-padding-top:30px;
-
+  color: rgba(0, 0, 0, 0.9);
+  padding-left: 30px;
+  padding-top: 30px;
 }
 .mountForm {
   position: absolute;
@@ -69,7 +68,7 @@ padding-top:30px;
   color: #a4a4a4;
 }
 .formControl2 {
-    top: 260px;
+  top: 260px;
   position: absolute;
   width: 1500px;
   height: 100px;
@@ -86,7 +85,7 @@ padding-top:30px;
   color: #a4a4a4;
 }
 .formControl3 {
-    top: 410px;
+  top: 410px;
   position: absolute;
   width: 1500px;
   height: 100px;
@@ -103,7 +102,7 @@ padding-top:30px;
   color: #a4a4a4;
 }
 .formControl4 {
-    top: 560px;
+  top: 560px;
   position: absolute;
   width: 1500px;
   height: 207px;
@@ -118,220 +117,282 @@ padding-top:30px;
   font-size: 33px;
   line-height: 32px;
   color: #a4a4a4;
-  resize:none;
+  resize: none;
 }
-.formBtn{
-    position: absolute;
-width: 989px;
-height: 119px;
-left:50%;
-transform: translateX(-50%);
-top: 810px;
-background: #D65454;
-border-radius: 40px;
-font-family: Gotham Pro;
-font-style: normal;
-font-weight: bold;
-font-size: 50px;
-line-height: 48px;
-color: #FFFFFF;
-border:none;
+.formBtn {
+  position: absolute;
+  width: 989px;
+  height: 119px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 810px;
+  background: #d65454;
+  border-radius: 40px;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 48px;
+  color: #ffffff;
+  border: none;
+}
+.error1{
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color:red;
+  line-height: 48px;
+  position:absolute;
+  top:70px;
+  left:70px;
+}
+.error2{
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color:red;
+  line-height: 48px;
+  position:absolute;
+  top:220px;
+  left:70px;
+
+}
+.error3{ 
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color:red;
+  line-height: 48px;
+  position:absolute;
+  top:370px;
+  left:70px;
 
 }
 @media (max-width: 1800px) {
- .text{
-   width:1700px;
- }
-
+  .text {
+    width: 1700px;
+  }
 }
 
 @media (max-width: 1700px) {
-  .text{
-    width:1390px;
+  .text {
+    width: 1390px;
   }
-  .mountForm{
-    width:1390px;
+  .mountForm {
+    width: 1390px;
   }
-  .formControl1{
-    width:1290px;
+  .formControl1 {
+    width: 1290px;
   }
-  .formControl2{
-    width:1290px;
+  .formControl2 {
+    width: 1290px;
   }
-  .formControl3{
-    width:1290px;
+  .formControl3 {
+    width: 1290px;
   }
-  .formControl4{
-    width:1290px;
+  .formControl4 {
+    width: 1290px;
   }
-  .put{
-    width:710px;
+  .put {
+    width: 710px;
   }
-
 }
 @media (max-width: 1400px) {
-  .text{
-    width:990px;
-    font-size:30px;
-    height:450px;
+  .text {
+    width: 990px;
+    font-size: 30px;
+    height: 450px;
   }
-  .mountForm{
-    width:990px;
+  .mountForm {
+    width: 990px;
   }
-  .formControl1{
-    width:890px;
+  .formControl1 {
+    width: 890px;
   }
-  .formControl2{
-    width:890px;
+  .formControl2 {
+    width: 890px;
   }
-  .formControl3{
-    width:890px;
+  .formControl3 {
+    width: 890px;
   }
-  .formControl4{
-    width:890px;
+  .formControl4 {
+    width: 890px;
   }
-  .formBtn{
-    width:600px;
+  .formBtn {
+    width: 600px;
   }
-  .put{
-    width:710px;
+  .put {
+    width: 710px;
   }
-
 }
 @media (max-width: 992px) {
-  .text{
-    width:760px;
-    font-size:27px;
-    height:510px;
+  .text {
+    width: 760px;
+    font-size: 27px;
+    height: 510px;
   }
-  .mountForm{
-    width:760px;
+  .mountForm {
+    width: 760px;
   }
-  .formControl1{
-    width:660px;
+  .formControl1 {
+    width: 660px;
   }
-  .formControl2{
-    width:660px;
+  .formControl2 {
+    width: 660px;
   }
-  .formControl3{
-    width:660px;
+  .formControl3 {
+    width: 660px;
   }
-  .formControl4{
-    width:660px;
+  .formControl4 {
+    width: 660px;
   }
-  .formBtn{
-    width:600px;
+  .formBtn {
+    width: 600px;
   }
-  .put{
-    width:570px;
-    font-size:40px;
+  .put {
+    width: 570px;
+    font-size: 40px;
   }
-
 }
 @media (max-width: 768px) {
-  .text{
-    width:570px;
-    font-size:27px;
-    height:660px;
+  .text {
+    width: 570px;
+    font-size: 27px;
+    height: 660px;
   }
-  .mountForm{
-    width:570px;
+  .mountForm {
+    width: 570px;
   }
-  .formControl1{
-    width:470px;
+  .formControl1 {
+    width: 470px;
   }
-  .formControl2{
-    width:470px;
+  .formControl2 {
+    width: 470px;
   }
-  .formControl3{
-    width:470px;
+  .formControl3 {
+    width: 470px;
   }
-  .formControl4{
-    width:470px;
+  .formControl4 {
+    width: 470px;
   }
-  .formBtn{
-    width:400px;
+  .formBtn {
+    width: 400px;
   }
-  .put{
-    width:500px;
-    font-size:35px;
+  .put {
+    width: 500px;
+    font-size: 35px;
   }
-
 }
 @media (max-width: 576px) {
-  .wrapper{
-    height:2100px;
+  .error1{
+    font-size:19px;
+    left:55px;
   }
-  .text{
-    width:390px;
-    font-size:25px;
-    height:970px;
-  }
-  .mountForm{
-    width:390px;
-  }
-  .formControl1{
-    width:290px;
-    font-size:21px;
-  }
-  .formControl2{
-    width:290px;
-    font-size:21px;
-  }
-  .formControl3{
-    width:290px;
-    font-size:21px;
-  }
-  .formControl4{
-    width:290px;
-    font-size:21px;
-  }
-  .formBtn{
+  .error2{
     width:300px;
-    font-size:40px;
+    font-size:19px;
+    left:65px;
+    line-height: initial;
+    top:213px;
   }
-  .put{
-    width:355px;
-    font-size:25px;
+  .error3{
+    font-size:19px;
+    left:55px;
   }
-
+  .wrapper {
+    height: 2100px;
+  }
+  .text {
+    width: 390px;
+    font-size: 25px;
+    height: 970px;
+  }
+  .mountForm {
+    width: 390px;
+  }
+  .formControl1 {
+    width: 290px;
+    font-size: 21px;
+  }
+  .formControl2 {
+    width: 290px;
+    font-size: 21px;
+  }
+  .formControl3 {
+    width: 290px;
+    font-size: 21px;
+  }
+  .formControl4 {
+    width: 290px;
+    font-size: 21px;
+  }
+  .formBtn {
+    width: 300px;
+    font-size: 40px;
+  }
+  .put {
+    width: 355px;
+    font-size: 25px;
+  }
 }
 @media (max-width: 392px) {
-  .wrapper{
-    height:2300px;
+  .error1{
+    font-size:17px;
+    width:246px;
+    left:50%;
+    transform: translateX(-50%);
   }
-  .text{
-    width:319px;
-    font-size:25px;
-    height:1200px;
+  .error2{
+    font-size:17px;
+    width:290px;
+    left:50%;
+    transform: translateX(-50%);
+    line-height: initial;
+    top:235px;
   }
-  .mountForm{
-    width:319px;
+  .error3{
+    font-size:17px;
+    width:258px;
+    left:50%;
+    transform: translateX(-50%);
   }
-  .formControl1{
-    width:219px;
-    font-size:21px;
+  .wrapper {
+    height: 2300px;
   }
-  .formControl2{
-    width:219px;
-    font-size:21px;
+  .text {
+    width: 319px;
+    font-size: 25px;
+    height: 1200px;
+  }
+  .mountForm {
+    width: 319px;
+  }
+  .formControl1 {
+    width: 219px;
+    font-size: 21px;
+  }
+  .formControl2 {
+    width: 219px;
+    font-size: 21px;
     text-overflow: ellipsis;
   }
-  .formControl3{
-    width:219px;
-    font-size:21px;
+  .formControl3 {
+    width: 219px;
+    font-size: 21px;
   }
-  .formControl4{
-    width:219px;
-    font-size:21px;
+  .formControl4 {
+    width: 219px;
+    font-size: 21px;
   }
-  .formBtn{
-    width:250px;
-    font-size:40px;
+  .formBtn {
+    width: 250px;
+    font-size: 40px;
   }
-  .put{
-    width:298px;
-    font-size:21px;
+  .put {
+    width: 298px;
+    font-size: 21px;
   }
-
 }

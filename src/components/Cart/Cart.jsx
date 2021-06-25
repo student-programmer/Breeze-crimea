@@ -56,7 +56,10 @@ const Cart = () => {
           <div className={cart.clear} onClick={onClearCart}>
             <img src={deleteImg} alt="" />
             <p>Очистить корзину</p>
-          </div>
+          </div> 
+          <div className={cart.circumstance}> <p>
+            Заказ будет принят после того как вы оставите заявку
+            </p> </div>
           <div className={cart.flexItem}> 
           <div className={cart.Count}>
             <p>Всего товаров: <span className={cart.countItem}>{totalCount}</span></p>
