@@ -15,9 +15,11 @@ const Work = () =>{
       }, [sortBy,loades])
     return(
         <div className={w.wrapper}>
+          <div className={w.diffrent}> 
              {isLoaded ? works.map((obj) => (
           <WorkItem id={obj.id} imageUrl={obj.imageUrl} />
         )) : Array(7).fill(0).map((_, index) => <AirsLoadingBlock key={index}/>)}
+        </div>
       </div>
     )
 }

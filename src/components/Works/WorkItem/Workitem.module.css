@@ -1,4 +1,46 @@
 .image{
-    width:300px;
-    height:200px;
+    width:500px;
+    height:400px;
+    border:2px solid #5c8bb6;
+    border-radius:15px;
 }
+@media (max-width: 1700px) {
+    .image{
+        width:450px;
+        height:350px;
+        border:2px solid #5c8bb6;
+        border-radius:15px;
+    }
+}
+@media (max-width: 992px) {
+    .image{
+        width:374px;
+        height:270px;
+
+    }
+  
+  }
+@media (max-width: 768px) {
+    .image{
+        width:278px;
+        height:200px;
+
+    }
+  
+  }
+@media (max-width: 576px) {
+    .image{
+        width:388px;
+        height:290px;
+
+    }
+  
+  }
+@media (max-width: 392px) {
+    .image{
+        width:316px;
+        height:210px;
+
+    }
+  
+  }
