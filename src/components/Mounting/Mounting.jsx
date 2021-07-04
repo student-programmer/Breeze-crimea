@@ -1,72 +1,11 @@
 import React, {useState, useEffect} from 'react';
-// imort {useRef} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import m from './Mounting.module.css';
-// import Time from './Time/Time';
-// import setMount from './../../Redux/Actions/mount';
 import updateMount from './../../Redux/Actions/mount';
 import {setStatus} from './../../Redux/Actions/mount';
 import { clearCart } from '../../Redux/Actions/cart';
 
 const Mounting = () => {
-    // const newPostElement = React.createRef();
-  // React.useEffect(() => {
-  //   dispatch(setMount(newPostElement.current));
-  // }, []);
-  // const value = useSelector(({ mounting }) => {
-  //   return {
-  //     value: mounting.value,
-  //   };
-  // });
-  // const handleClick = (e) =>{
-  //   e.preventDefault();
-
-  //   if(e.target.id === "name"){
-  //     setName(e.target.value)
-  //   }else if(e.target.id === "email"){
-  //     setEmail(e.target.value)
-  //   }else{
-  //     setPhone(e.target.value)
-  //   }
-  // }
-  //   const formDataToJson = (form) => {
-  //     const formData = new FormData(form);
-  //     let obj = {};
-
-  //     for(let [key, value] of formData.entries()){
-  //         obj[key] = value;
-  //     }
-
-  //     return JSON.stringify(obj);
-  // };
-  // fetch(url, {
-  //   method: 'POST,
-  //   headers:{
-  //     'Content-Type': 'application/json',
-  //   },
-  //  body: JSON.stringify(mail, name, phone)
-  // }).then(response => response.json())
-  //   .then(result => {
-  //     'тут код'..
-  //     например, alert(result.response.msg);
-  //   })
-
-  // const [inputValue, setInputValue] = React.useState("");
-    // const handleStatus = (bool) =>{
-  //   dispatch(setStatus(bool))
-  //  }
-
-  //  const onClickHandleStatus = () =>{
-  //    const bool = true;
-  //    handleStatus(bool)
-  //  }
-//   const dispatch = useDispatch();
-// const status = useSelector(({mounting}) => {
-//   return{
-//     status: mounting.status
-//   }
-// })
-
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');

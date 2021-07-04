@@ -17,8 +17,8 @@ const Header = () => {
         alt="https://webstockreview.net/images/air-clipart-breeze-7.jpg"
       />
       <div className={h.information}>
-        <p className={h.inform}>продажа,</p>
-        <p className={h.inform2}>обслуживание, установка кондиционеров</p>
+        <h2 className={h.inform}>продажа,</h2>
+        <h2 className={h.inform2}>обслуживание, установка кондиционеров</h2>
       </div>
       <div className={h.city}>
         <p>г.Симферополь</p>
