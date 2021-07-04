@@ -73,7 +73,7 @@ const Mounting = () => {
     setEmail(value);
     setName(value);
     setDescription(value)
-    fetch('http://localhost:5000/nodemail/form', {
+    fetch('http://185.87.50.88:5000/nodemail/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

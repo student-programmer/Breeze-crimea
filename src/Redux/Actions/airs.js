@@ -7,7 +7,7 @@ import axios from 'axios'
     
  const fetchAirs = (sortBy, category) => (dispatch) =>{
     dispatch(setLoaded(false));
-    axios.get(`http://localhost:5000/air/gets ${category && `/${category}` || '' }`).then(({data}) => {
+    axios.get(`http://185.87.50.88:5000/air/gets ${category && `/${category}` || '' }`).then(({data}) => {
         dispatch(setAirs(data));
 })
 // const sqlSelect = "SELECT * FROM breeze.air";
