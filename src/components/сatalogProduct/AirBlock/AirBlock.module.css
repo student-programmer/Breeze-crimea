@@ -7,7 +7,7 @@
 .chef {
   position: relative;
   width: 630px;
-  height: 385px;
+  height: 407px;
   background: #f1f1f1;
   border: 0.5px solid #cccccc;
   box-sizing: border-box;
@@ -15,11 +15,13 @@
 }
 .textAir {
   margin: 0;
+  width:150px;
 }
 .but {
   position: absolute;
   right: 20px;
-  bottom: 35px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .butItem {
   border: none;
@@ -31,7 +33,7 @@
   font-size: 28px;
   line-height: 27px;
   position: absolute;
-  width: 200px;
+  width: 220px;
   right: 5px;
   top: 50%;
   transform: translateY(-50%);
@@ -40,7 +42,7 @@
   border-top: 2px solid #cccccc;
   bottom: 0px;
   position: relative;
-  height: 73px;
+  height: 95px;
 }
 .textAirBlock1 {
   position: absolute;
@@ -52,6 +54,7 @@
   font-weight: normal;
   font-size: 28px;
   line-height: 27px;
+  width:120px;
 }
 .textAirBlock2 {
   position: absolute;
@@ -81,6 +84,20 @@
   .image {
     width: 574px;
   }
+  .butItem {
+    right: 20px;
+    width: 120px;
+    font-size: 40px;
+  }
+  .plus1 {
+    display: none;
+  }
+  .plus {
+    display: initial;
+    width: 22px;
+    padding-left: 10px;
+    font-size:40px;
+  }
 }
 @media (max-width: 576px) {
   .chef {
@@ -100,7 +117,7 @@
     font-size: 22px;
   }
   .butItem {
-    right: 20px;
+    right: 0px;
     width: 80px;
     font-size: 22px;
   }
@@ -111,6 +128,7 @@
     display: initial;
     width: 22px;
     padding-left: 10px;
+    font-size: 22px;
   }
   .image {
     width: 390px;
@@ -128,6 +146,7 @@
       }
       .textAirBlock1 {
         font-size: 20px;
+        width:100px;
       }
       .textAirBlock2 {
         font-size: 20px;
@@ -138,9 +157,9 @@
       }
       .butItem {
           background:none;
-        right: -10px;
+        right: -35px;
         width: 80px;
-        font-size: 20px;
+        font-size: 18px;
       }
       .plus1 {
         display: none;
@@ -148,6 +167,7 @@
       .plus {
         display: initial;
         width: 22px;
-        padding-left: 10px;
+        padding-left: 5px;
+        font-size:18px;
       }
 }

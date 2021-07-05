@@ -64,7 +64,7 @@ const inputClickHandler = () =>{
             onCkickAddAirs={handleAddAirsToCart}
             addedAirs = {cartItems[obj.id] && cartItems[obj.id].items.length}
           /> 
-        )) : Array(7).fill(0).map((_, index) => <AirsLoadingBlock key={index}/>)}
+        )) : Array(8).fill(0).map((_, index) => <AirsLoadingBlock key={index}/>)}
       </div>
       {/* <Help activeCategory={category}/> */}
     </div>
