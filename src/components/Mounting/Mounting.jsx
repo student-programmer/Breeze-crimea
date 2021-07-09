@@ -1,8 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import m from './Mounting.module.css';
-import updateMount from './../../Redux/Actions/mount';
-import {setStatus} from './../../Redux/Actions/mount';
 import { clearCart } from '../../Redux/Actions/cart';
 
 const Mounting = () => {
@@ -73,7 +71,7 @@ const Mounting = () => {
     setEmail(value);
     setName(value);
     setDescription(value)
-    fetch('http://breeze-crimea.ru:5000/nodemail/form', {
+    fetch('https://breeze-crimea.ru:5000/nodemail/form', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -99,6 +97,7 @@ const blurHandler = (e) =>{
         case "email":
           setEmailDirty(true)
           break
+          default:
   }
 }
 

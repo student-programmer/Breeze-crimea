@@ -11,7 +11,7 @@ const Work = () =>{
     const isLoaded = useSelector(({works}) => works.isLoaded);
     const {sortBy, loades} = useSelector(({filters}) => filters);
     React.useEffect(() => {
-        dispatch(fetchWorks(sortBy,loades))
+      dispatch(fetchWorks(sortBy,loades))
       }, [sortBy,loades])
     return(
         <div className={w.wrapper}>

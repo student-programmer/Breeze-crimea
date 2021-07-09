@@ -5,7 +5,7 @@ import axios from 'axios'
     })
     const fetchWorks = (noname, loades) => (dispatch) =>{
         dispatch(setLoadedWorks(false));
-        axios.get(`http://breeze-crimea.ru:5000/job/work?${loades !== null ? `loades=${loades}` : ''}`).then(({data}) => {
+        axios.get(`https://breeze-crimea.ru:5000/job/work?${loades !== null ? `loades=${loades}` : ''}`).then(({data}) => {
             dispatch(setWorks(data));
     })};
 

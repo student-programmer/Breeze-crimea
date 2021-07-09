@@ -1,6 +1,5 @@
 import React from 'react';
-import item from './CartItem.module.css';
-import close from "./../../../asseds/images/close.png" 
+import item from './CartItem.module.css'; 
 const CartItem = ({ name, totalPrice, totalCount, onRemove, id, onMinus, onPlus, imgaeUrl }) => {
   
   
