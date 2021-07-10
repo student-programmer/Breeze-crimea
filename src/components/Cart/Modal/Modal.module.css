@@ -1,0 +1,33 @@
+.activeModal{
+    overflow-y: hidden;
+}
+.wrapper{
+    width:100%;
+    height:100%; 
+    background: rgba(49,49,49,0.8);
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    position:fixed;
+    z-index:15;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalBtn{
+    padding:10px 20px;
+    display:block;
+    margin: 100px auto 0;
+    font-size:18px;
+}
+.modalContent{
+    width: 1600px;
+    height: 700px;
+    z-index:16;
+   position:absolute;
+}
+@media (max-width: 576px) {
+
+  }

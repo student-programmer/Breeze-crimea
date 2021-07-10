@@ -1,0 +1,341 @@
+
+  .mountForm {
+    position: absolute;
+    width: 1600px;
+    height: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f4f4f4;
+    border: 1px solid #d7d7d7;
+    box-sizing: border-box;
+    border-radius: 50px;
+  }
+  .wrapper {
+    width: 1903px;
+    height: 1700px;
+  }
+  .put {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 48px;
+  
+    color: #000000;
+    top: 30px;
+  }
+  .formControl1 {
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 49px;
+    top: 110px;
+    background: #e4e4e4;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 32px;
+    color: #a4a4a4;
+  }
+  .formControl2 {
+    top: 260px;
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 49px;
+    background: #e4e4e4;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 32px;
+    color: #a4a4a4;
+  }
+  .formControl3 {
+    top: 410px;
+    position: absolute;
+    width: 1500px;
+    height: 100px;
+    left: 49px;
+    background: #e4e4e4;
+    border: 1px solid #cdcdcd;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 32px;
+    color: #a4a4a4;
+  }
+  
+  .formBtn {
+    position: absolute;
+    width: 989px;
+    height: 119px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 550px;
+    background: #d65454;
+    border-radius: 40px;
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 48px;
+    color: #ffffff;
+    border: none;
+  }
+  .close{
+      right:30px;
+      top:20px;
+      position:absolute;
+      border:none;
+  }
+  .error1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    line-height: 48px;
+    position: absolute;
+    top: 70px;
+    left: 70px;
+  }
+  .error2 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    line-height: 48px;
+    position: absolute;
+    top: 220px;
+    left: 70px;
+  }
+  .error3 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: red;
+    line-height: 48px;
+    position: absolute;
+    top: 370px;
+    left: 70px;
+  }
+  @media (max-width: 1800px) {
+   
+  }
+  
+  @media (max-width: 1700px) {
+   
+    .mountForm {
+      width: 1390px;
+    }
+    .formControl1 {
+      width: 1290px;
+    }
+    .formControl2 {
+      width: 1290px;
+    }
+    .formControl3 {
+      width: 1290px;
+    }
+    .formControl4 {
+      width: 1290px;
+    }
+    .put {
+      width: 710px;
+    }
+  }
+  @media (max-width: 1400px) {
+    
+    .mountForm {
+      width: 990px;
+    }
+    .formControl1 {
+      width: 890px;
+    }
+    .formControl2 {
+      width: 890px;
+    }
+    .formControl3 {
+      width: 890px;
+    }
+    .formControl4 {
+      width: 890px;
+    }
+    .formBtn {
+      width: 600px;
+    }
+    .put {
+      width: 710px;
+    }
+  }
+  @media (max-width: 992px) {
+    
+    .mountForm {
+      width: 760px;
+    }
+    .formControl1 {
+      width: 660px;
+    }
+    .formControl2 {
+      width: 660px;
+    }
+    .formControl3 {
+      width: 660px;
+    }
+    .formControl4 {
+      width: 660px;
+    }
+    .formBtn {
+      width: 600px;
+    }
+    .put {
+      width: 570px;
+      font-size: 40px;
+    }
+  }
+  @media (max-width: 768px) {
+  .close{
+      top:10px;
+      right:20px;
+  }
+    .mountForm {
+      width: 570px;
+    }
+    .formControl1 {
+      width: 470px;
+    }
+    .formControl2 {
+      width: 470px;
+    }
+    .formControl3 {
+      width: 470px;
+    }
+    .formControl4 {
+      width: 470px;
+    }
+    .formBtn {
+      width: 400px;
+    }
+    .put {
+      width: 500px;
+      font-size: 35px;
+    }
+  }
+  @media (max-width: 576px) {
+    .error1 {
+      font-size: 19px;
+      left: 55px;
+    }
+    .error2 {
+      width: 300px;
+      font-size: 19px;
+      left: 65px;
+      line-height: initial;
+      top: 213px;
+    }
+    .error3 {
+      font-size: 19px;
+      left: 55px;
+    }
+    .wrapper {
+      height: 2100px;
+    }
+    
+    .mountForm {
+      width: 390px;
+    }
+    .formControl1 {
+      width: 290px;
+      font-size: 21px;
+    }
+    .formControl2 {
+      width: 290px;
+      font-size: 21px;
+    }
+    .formControl3 {
+      width: 290px;
+      font-size: 21px;
+    }
+    .formControl4 {
+      width: 290px;
+      font-size: 21px;
+    }
+    .formBtn {
+      width: 300px;
+      font-size: 40px;
+    }
+    .put {
+      width: 355px;
+      font-size: 25px;
+    }
+  }
+  @media (max-width: 392px) {
+    .error1 {
+      font-size: 17px;
+      width: 246px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .error2 {
+      font-size: 17px;
+      width: 290px;
+      left: 50%;
+      transform: translateX(-50%);
+      line-height: initial;
+      top: 235px;
+    }
+    .error3 {
+      font-size: 17px;
+      width: 258px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .wrapper {
+      height: 2300px;
+    }
+    .mountForm {
+      width: 319px;
+    }
+    .formControl1 {
+      width: 219px;
+      font-size: 21px;
+    }
+    .formControl2 {
+      width: 219px;
+      font-size: 21px;
+      text-overflow: ellipsis;
+    }
+    .formControl3 {
+      width: 219px;
+      font-size: 21px;
+    }
+    .formControl4 {
+      width: 219px;
+      font-size: 21px;
+    }
+    .formBtn {
+      width: 250px;
+      font-size: 40px;
+    }
+    .put {
+      width: 298px;
+      font-size: 21px;
+    }
+  }
+  

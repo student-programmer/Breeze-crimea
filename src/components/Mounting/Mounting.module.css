@@ -136,40 +136,38 @@
   color: #ffffff;
   border: none;
 }
-.error1{
+.error1 {
   font-family: Gotham Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  color:red;
+  color: red;
   line-height: 48px;
-  position:absolute;
-  top:70px;
-  left:70px;
+  position: absolute;
+  top: 70px;
+  left: 70px;
 }
-.error2{
+.error2 {
   font-family: Gotham Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  color:red;
+  color: red;
   line-height: 48px;
-  position:absolute;
-  top:220px;
-  left:70px;
-
+  position: absolute;
+  top: 220px;
+  left: 70px;
 }
-.error3{ 
+.error3 {
   font-family: Gotham Pro;
   font-style: normal;
   font-weight: bold;
   font-size: 25px;
-  color:red;
+  color: red;
   line-height: 48px;
-  position:absolute;
-  top:370px;
-  left:70px;
-
+  position: absolute;
+  top: 370px;
+  left: 70px;
 }
 @media (max-width: 1800px) {
   .text {
@@ -287,20 +285,20 @@
   }
 }
 @media (max-width: 576px) {
-  .error1{
-    font-size:19px;
-    left:55px;
+  .error1 {
+    font-size: 19px;
+    left: 55px;
   }
-  .error2{
-    width:300px;
-    font-size:19px;
-    left:65px;
+  .error2 {
+    width: 300px;
+    font-size: 19px;
+    left: 65px;
     line-height: initial;
-    top:213px;
+    top: 213px;
   }
-  .error3{
-    font-size:19px;
-    left:55px;
+  .error3 {
+    font-size: 19px;
+    left: 55px;
   }
   .wrapper {
     height: 2100px;
@@ -339,24 +337,24 @@
   }
 }
 @media (max-width: 392px) {
-  .error1{
-    font-size:17px;
-    width:246px;
-    left:50%;
+  .error1 {
+    font-size: 17px;
+    width: 246px;
+    left: 50%;
     transform: translateX(-50%);
   }
-  .error2{
-    font-size:17px;
-    width:290px;
-    left:50%;
+  .error2 {
+    font-size: 17px;
+    width: 290px;
+    left: 50%;
     transform: translateX(-50%);
     line-height: initial;
-    top:235px;
+    top: 235px;
   }
-  .error3{
-    font-size:17px;
-    width:258px;
-    left:50%;
+  .error3 {
+    font-size: 17px;
+    width: 258px;
+    left: 50%;
     transform: translateX(-50%);
   }
   .wrapper {

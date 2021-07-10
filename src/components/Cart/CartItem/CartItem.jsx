@@ -18,7 +18,7 @@ const handleMinusItem = () =>{
         <img className={item.airItem} src={imgaeUrl} alt="air"/>
         </div>
         <div className={item.nameAir}> 
-        <p>{name}</p>
+          <p className={item.nameAirP}>{name}</p>
         </div>
         <div className={item.priceAir}>
           <p>{totalPrice}</p><span className={item.rub}> ₽</span>

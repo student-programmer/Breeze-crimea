@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import CartItem from './CartItem/CartItem';
 import cart from './Cart.module.css';
@@ -6,6 +6,8 @@ import { clearCart, removeCartAirs, plusCartItem, minusCartItem } from '../../Re
 import { NavLink } from 'react-router-dom';
 import newImage from "./../../asseds/images/new.png" 
 import deleteImg from "./../../asseds/images/delete.png" 
+import Modal from './Modal/Modal';
+import { useRef } from 'react';
 const Cart = () => {
   const dispatch = useDispatch();
   const onClearCart = () => {
@@ -25,6 +27,16 @@ const Cart = () => {
     dispatch(minusCartItem(id))
   }
   const { totalPrice, totalCount, items } = useSelector(({ cart }) => cart);
+ const [modal, setModal] = useState(false)
+
+  const toggleModal = () =>{
+    setModal(!modal)
+  }
+  if(modal) {
+    document.body.classList.add('activeModal')
+  } else {
+    document.body.classList.remove('activeModal')
+  }
 
 
   const addedCondinting = Object.keys(items).map((key) => {
@@ -67,6 +79,10 @@ const Cart = () => {
           <div className={cart.price}>
             <p> К оплате: <span className={cart.priceItem}>{totalPrice}</span> <span className={cart.rub}>₽</span> </p>
           </div>{' '}
+          </div>
+          <div className={cart.modal}>
+            <button className={cart.modalBtn}onClick={toggleModal}>Заказать</button>
+            {modal && <Modal toggleModal={toggleModal}/>}
           </div>
         </div>
       ) : (

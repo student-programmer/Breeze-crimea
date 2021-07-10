@@ -24,7 +24,28 @@
   left: 50%;
   transform: translateX(-50%);
 }
-
+.activeModal{
+  overflow-y: hidden;
+}
+.modalBtn{
+  width: 500px;
+  height: 119px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom:0px;
+  position:relative;
+  background: #d65454;
+  border-radius: 40px;
+  font-family: Gotham Pro;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 48px;
+  color: #fff;
+  border: none;
+  margin-top:20px;
+}
 .price {
   position: absolute;
   grid-column-start: 2;
@@ -379,6 +400,9 @@ left:30px;
 .wrapperCart2{
     height:600px;
 }
+.modalBtn{
+  width:392px;
+}
 }
 @media (max-width: 392px) {
   .circumstance{
@@ -433,6 +457,9 @@ font-size:25px;
 }
 .wrapperCart2{
     height:600px;
+}
+.modalBtn{
+  width:315px;
 }
 
 }
