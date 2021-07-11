@@ -81,7 +81,7 @@ const Cart = () => {
           </div>{' '}
           </div>
           <div className={cart.modal}>
-            <button className={cart.modalBtn}onClick={toggleModal}>Заказать</button>
+            <button className={cart.modalBtn} onClick={toggleModal}>Заказать</button>
             {modal && <Modal toggleModal={toggleModal}/>}
           </div>
         </div>

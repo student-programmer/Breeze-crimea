@@ -210,6 +210,9 @@
     }
   }
   @media (max-width: 768px) {
+    .mountForm{
+      height:500px;
+    }
   .close{
       top:10px;
       right:20px;
@@ -219,17 +222,28 @@
     }
     .formControl1 {
       width: 470px;
+      height:60px;
     }
     .formControl2 {
       width: 470px;
+      height:60px;
+      top:210px;
+    }
+    .error2{
+      top:170px;
     }
     .formControl3 {
       width: 470px;
+      height:60px;
+      top:310px;
     }
-    .formControl4 {
-      width: 470px;
+    .error3{
+      top:270px;
     }
     .formBtn {
+      height:90px;
+      font-size:40px;
+      top:390px;
       width: 400px;
     }
     .put {
@@ -259,6 +273,7 @@
     
     .mountForm {
       width: 390px;
+      z-index:40;
     }
     .formControl1 {
       width: 290px;
@@ -272,13 +287,9 @@
       width: 290px;
       font-size: 21px;
     }
-    .formControl4 {
-      width: 290px;
-      font-size: 21px;
-    }
     .formBtn {
       width: 300px;
-      font-size: 40px;
+      font-size: 30px;
     }
     .put {
       width: 355px;
@@ -311,6 +322,7 @@
     }
     .mountForm {
       width: 319px;
+      z-index:31;
     }
     .formControl1 {
       width: 219px;
@@ -325,13 +337,9 @@
       width: 219px;
       font-size: 21px;
     }
-    .formControl4 {
-      width: 219px;
-      font-size: 21px;
-    }
     .formBtn {
       width: 250px;
-      font-size: 40px;
+      font-size: 25px;
     }
     .put {
       width: 298px;

@@ -28,6 +28,41 @@
     z-index:16;
    position:absolute;
 }
-@media (max-width: 576px) {
-
+@media (max-width: 1700px) {
+    .modalContent{
+        height:700px;
+        width:1390px;
+    }
+  }
+  @media (max-width: 1400px) {
+    .modalContent{
+        height:700px;
+        width:990px;
+    }
+  }
+  @media (max-width: 992px) {
+    .modalContent{
+        height:700px;
+        width:760px;
+    }
+  }
+@media (max-width: 768px) {
+    .modalContent{
+        height:500px;
+        width:570px;
+    }
+  }
+  @media (max-width: 576px) {
+    .modalContent{
+        height:500px;
+        width:390px;
+    }
+  }
+  @media (max-width: 415px) {
+    .modalContent{
+   z-index:40;
+    }
+    .wrapper{
+        z-index:40;
+    }
   }
